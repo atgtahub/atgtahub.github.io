@@ -1,15 +1,15 @@
 # Site settings
-name: Less Or More
-email: luoyan35714@126.com
-author: Freud Kang
-url: http://www.hifreud.com
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/luoyan35714/
-baseurl: "/LessOrMore"
-description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+name: gtahub
+email: gtahub@126.com
+author: gtahub
+url: https://atgtahub.github.io
+resume_site: https://atgtahub.github.io/
+github: https://github.com/atgtahub/
+baseurl: ""
+description: Actually, i'm fine.
+meta_description: gtahub
+motto: dont't come near me.
+banner: 百年过后，不过一捧黄沙。
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -17,7 +17,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: luoyan35714
+github_username: atgtahub
 
 # Build settings
 markdown: kramdown

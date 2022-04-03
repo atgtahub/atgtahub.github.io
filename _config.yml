@@ -1,8 +1,8 @@
 # Site settings
 name: gtahub
-email: gtahub@126.com
+email:
 author: gtahub
-url: https://atgtahub.github.io
+url: gtahub.cn
 resume_site: https://atgtahub.github.io/
 github: https://github.com/atgtahub/
 baseurl: ""
@@ -22,5 +22,5 @@ github_username: atgtahub
 # Build settings
 markdown: kramdown
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+#baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 

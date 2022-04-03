@@ -1,20 +1,16 @@
 ---
 layout: post
-title:  "knife4j文件类型参数展示"
-date:   2022-04-02 18:04:03
-categories: document
-tag: 教程
+title:  knife4j文件类型参数展示
+categories: java
+tag: java swagger knife4j
 ---
-
-* content
-{:toc}
 
 
 knife4j文件类型参数展示
 
 ### pom.xml
 ```xml
-		<!-- knife4j version 3.0.2 -->
+        <!-- knife4j version 3.0.2 -->
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-spring-boot-starter</artifactId>
@@ -27,7 +23,7 @@ knife4j文件类型参数展示
 @Api(tags = "demo")
 public class DemoController {
 
-	@GetMapping("/example")
+    @GetMapping("/example")
     @ApiOperation("do something")
     @ApiImplicitParam(dataType = "__File", dataTypeClass = MultipartFile.class, name = "file", value = "example file", required = true)
     public ResponseEntity example(@RequestPart MultipartFile file) {

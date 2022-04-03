@@ -10,8 +10,6 @@ tag: knife4j
 {:toc}
 
 
-# knife4j文件类型参数展示
-
 ### pom.xml
 ```xml
         <!-- knife4j version 3.0.2 -->

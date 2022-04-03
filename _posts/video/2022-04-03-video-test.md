@@ -14,4 +14,6 @@ topping: true
 
 # ED 未明の君と薄明の魔法
 
-![/styles/media/videos/ED_未明の君と薄明の魔法.mp4]({{ '/styles/media/videos/ED_未明の君と薄明の魔法.mp4' | prepend: site.baseurl  }})
+<video id="video" controls="" preload="none" >
+      <source id="mp4" src="/styles/media/videos/ED_未明の君と薄明の魔法.mp4" type="video/mp4">
+</video>

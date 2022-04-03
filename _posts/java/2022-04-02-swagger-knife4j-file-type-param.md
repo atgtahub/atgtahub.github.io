@@ -2,7 +2,7 @@
 layout: post
 title:  knife4j文件类型参数展示
 categories: java
-tag: java swagger knife4j
+tag: knife4j
 ---
 
 

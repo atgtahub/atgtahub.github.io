@@ -205,7 +205,9 @@ git commit -m "注释"
 git push
 ```
 
-#### 附加两种验证方式：https://www.cnblogs.com/sober-orange/p/git-token-push.html
+#### 附加文档
+- 两种验证方式：https://www.cnblogs.com/sober-orange/p/git-token-push.html
+- 官方文档：https://docs.github.com/cn/authentication/connecting-to-github-with-ssh
 
 ## 安装Ruby
 

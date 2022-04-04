@@ -16,6 +16,7 @@ permalink: /bangumi/
 + <a href="https://www.bilibili.com/bangumi/play/ss31779" target="_blank">紫罗兰永恒花园外传：永远与自动手记人偶</a>
 + <a href="https://www.bilibili.com/bangumi/play/ss32394" target="_blank">烟花</a>
 + <a href="https://www.bilibili.com/bangumi/play/ss33343" target="_blank">天气之子</a>
++ <a href="https://www.agemys.com/play/20180286" target="_blank">朝花夕誓</a>
 
 2022
 -

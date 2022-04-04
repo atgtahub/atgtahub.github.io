@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 番剧
+title: animation
 permalink: /bangumi/
 ---
 
@@ -11,54 +11,53 @@ permalink: /bangumi/
 剧场
 -
 + <a href="https://www.bilibili.com/bangumi/play/ss39136" target="_blank">言语如苏打般涌现</a>
-+ [言语如苏打般涌现](https://www.bilibili.com/bangumi/play/ss39136)
-+ [声之形](https://www.bilibili.com/bangumi/play/ss12116)
-+ [你的名字。](https://www.bilibili.com/bangumi/play/ss12044)
-+ [紫罗兰永恒花园外传：永远与自动手记人偶](https://www.bilibili.com/bangumi/play/ss31779)
-+ [烟花](https://www.bilibili.com/bangumi/play/ss32394)
-+ [天气之子](https://www.bilibili.com/bangumi/play/ss33343)
++ <a href="https://www.bilibili.com/bangumi/play/ss12116" target="_blank">声之形</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss12044" target="_blank">你的名字。</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss31779" target="_blank">紫罗兰永恒花园外传：永远与自动手记人偶</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss32394" target="_blank">烟花</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss33343" target="_blank">天气之子</a>
 
 2022
 -
-
-+ [更衣人偶坠入爱河](https://www.agemys.com/play/20220070)
-+ [来自多彩世界的明天](https://www.agemys.com/play/20180230)
-+ [狗与剪刀的正确用法](https://www.bilibili.com/bangumi/play/ss2783)
-+ [no game, no life](https://www.bilibili.com/bangumi/play/ss184)
++ ...
++ <a href="https://www.agemys.com/play/20220070" target="_blank">更衣人偶坠入爱河</a>
++ <a href="https://www.agemys.com/play/20180230" target="_blank">来自多彩世界的明天</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss2783" target="_blank">狗与剪刀的正确用法</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss184" target="_blank">no game, no life</a>
 
 
 2021
 -
 
-+ [欢迎来到实力至上主义教室](https://www.bilibili.com/bangumi/play/ss6339)
-+ [因为太怕痛就全点防御力了](https://www.bilibili.com/bangumi/play/ss29358)
-+ [春物](https://www.bilibili.com/bangumi/play/ss32998)
-+ [樱花庄的宠物女孩](https://www.bilibili.com/bangumi/play/ss687)
-+ [魔女之旅](https://www.bilibili.com/bangumi/play/ss34412)
-+ [路人女主的养成方法 ♭](https://www.bilibili.com/bangumi/play/ss5971)
-+ [路人女主的养成方法](https://www.bilibili.com/bangumi/play/ss1512)
-+ [龙王的工作](https://www.bilibili.com/bangumi/play/ss21554)
-+ [冰菓](https://www.bilibili.com/bangumi/play/ss3398)
-+ [五等分的新娘](https://www.bilibili.com/bangumi/play/ss26283)
-+ [天使降临到我身边](https://www.bilibili.com/bangumi/play/ss26291)
-+ [埃罗芒阿老师](https://www.bilibili.com/bangumi/play/ss5997)
-+ [未闻花名](https://www.bilibili.com/bangumi/play/ss835)
-+ [虚构推理](https://www.bilibili.com/bangumi/play/ss29366)
++ <a href="https://www.bilibili.com/bangumi/play/ss6339" target="_blank">欢迎来到实力至上主义教室</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss29358" target="_blank">因为太怕痛就全点防御力了</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss32998" target="_blank">春物</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss687" target="_blank">樱花庄的宠物女孩</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss34412" target="_blank">魔女之旅</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss5971" target="_blank">路人女主的养成方法 ♭</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss1512" target="_blank">路人女主的养成方法</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss21554" target="_blank">龙王的工作</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss3398" target="_blank">冰菓</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss26283" target="_blank">五等分的新娘</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss26291" target="_blank">天使降临到我身边</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss5997" target="_blank">埃罗芒阿老师</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss835" target="_blank">未闻花名</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss29366" target="_blank">虚构推理</a>
 
 2020
 -
 
-+ [可塑性记忆](https://www.bilibili.com/bangumi/play/ss1552/)
-+ [CLANNAD AFTER STORY](https://www.bilibili.com/bangumi/play/ss1178)
-+ [紫罗兰永恒花园](https://www.bilibili.com/bangumi/play/ss21542)
-+ [四月是你的谎言](https://www.bilibili.com/bangumi/play/ss1699)
-+ [春猪](https://www.bilibili.com/bangumi/play/ss25733)
-+ [刀剑神域](https://www.bilibili.com/bangumi/play/ss4452)
-+ [盾勇](https://www.bilibili.com/bangumi/play/ss26284)
-+ [夏洛特](https://www.bilibili.com/bangumi/play/ss2572)
++ <a href="https://www.bilibili.com/bangumi/play/ss1552/" target="_blank">可塑性记忆</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss1178" target="_blank">CLANNAD AFTER STORY</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss21542" target="_blank">紫罗兰永恒花园</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss1699" target="_blank">四月是你的谎言</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss25733" target="_blank">春猪</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss4452" target="_blank">刀剑神域</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss26284" target="_blank">盾勇</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss2572" target="_blank">夏洛特</a>
 
 2019
 -
 
-+ [CLANNAD](https://www.bilibili.com/bangumi/play/ss1177)
-+ [杀戮天使](https://www.bilibili.com/bangumi/play/ss24625)
++ <a href="https://www.bilibili.com/bangumi/play/ss1177" target="_blank">CLANNAD</a>
++ <a href="https://www.bilibili.com/bangumi/play/ss24625" target="_blank">杀戮天使</a>

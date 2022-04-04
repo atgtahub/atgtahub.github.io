@@ -13,6 +13,6 @@ tag: video
 
 # ED 未明の君と薄明の魔法
 
-<video id="video" controls="" preload="none" >
+<video id="video" controls="" preload="none" style="width:100%; height:100%; object-fit: fill;" autoplay >
       <source id="mp4" src="/styles/media/videos/ED_未明の君と薄明の魔法.mp4" type="video/mp4">
 </video>

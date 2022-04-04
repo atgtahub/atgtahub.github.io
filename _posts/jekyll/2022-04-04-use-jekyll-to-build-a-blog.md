@@ -328,6 +328,6 @@ bundle add webrick
 
 jekyll 主题：http://jekyllthemes.org/
 
-选择一款合适的博客主题，将仓库clone到本地，除了拷贝下面的文件到自己的本地仓库目录下
+选择一款合适的博客主题，将仓库clone到本地，除了.git和.github，其他文件复制到自己的本地仓库目录下
 
 使用jekyll server 命令运行，再推送到远程仓库即可

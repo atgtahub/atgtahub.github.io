@@ -22,6 +22,6 @@ tag: video
 </video>
 
 # 本地
-<video controls="" preload="none" style="width:100%; height:100%; object-fit: fill;" autoplay >
+<video controls="" preload="none" style="width:100%; height:100%; object-fit: fill;">
       <source src="/styles/media/videos/ED_未明の君と薄明の魔法.mp4" type="video/mp4">
 </video>

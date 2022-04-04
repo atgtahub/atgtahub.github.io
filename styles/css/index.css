@@ -6115,12 +6115,14 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #43759e;
+  /*color: #43759e;*/
+  color: #000;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2c4d68;
+  /*color: #2c4d68;*/
+  color: #9400D3;
   text-decoration: underline;
 }
 a:focus {
@@ -6316,7 +6318,8 @@ hr {
 .docs-header,
 .docs-home {
   color: #b9c8e0;
-  background-color: #1d365d;
+  /*background-color: #1d365d;*/
+  background-color: #000;
 }
 /* Page headers */
 .docs-header {
@@ -6511,7 +6514,8 @@ hr {
 }
 .docs-nav {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
-  background-color: #1d365d;
+  /*background-color: #1d365d;*/
+  background-color: #000;
   border-color: rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.07);
 }

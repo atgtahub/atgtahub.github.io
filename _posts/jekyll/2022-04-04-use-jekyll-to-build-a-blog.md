@@ -156,11 +156,11 @@ ssh-add ~/.ssh/id_ed25519
 
 ![1649040975(1)](/styles/images/use-jekyll-to-build-blog/1649040975(1).jpg)
 
-#### 随便输入一个标题，使用文本编辑器打开id_ed25519.pub文件将里面的内容复制粘贴到Key的文本框中，点击Add SSH Key
+#### 随便输入一个标题，使用文本编辑器打开id_rsa.pub文件将里面的内容复制粘贴到Key的文本框中，点击Add SSH Key
 
 ![1649041051(1)](/styles/images/use-jekyll-to-build-blog/1649041051(1).jpg)
 
-**测试连接**
+#### 测试连接
 
 ```sh
 ssh -T git@github.com

@@ -317,7 +317,7 @@ jekyll server
 bundle add webrick
 ```
 
-#### 启动成功在浏览器访问127.0.0.1:4000
+#### 启动成功在浏览器访问<a href="http://127.0.0.1:4000" target="_blank">127.0.0.1:4000</a>
 
 ![1649045648(1)](/styles/images/use-jekyll-to-build-blog/1649045648(1).jpg)
 

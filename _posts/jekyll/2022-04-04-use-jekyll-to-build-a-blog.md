@@ -109,27 +109,34 @@ https://github.com/
 
 #### 输入命令生成密钥
 
-**查看密钥文件**
+##### 生成密钥
 
+youremail@example.com改成注册github时的邮箱账号
+
+```sh
+ssh-keygen -t rsa -C "youremail@example.com"
+```
+
+
+##### 查看密钥文件
+
+```sh
+cat ~/.ssh/id_rsa.pub
+```
+
+查看列表
 ```sh
 ls -al ~/.ssh
-
-cat ~/.ssh/id_ed25519.pub
 ```
 
-**邮箱替换为自己的，一直回车**
 
-```sh
-ssh-keygen -t ed25519 -C "your_email@example.com"
-```
-
-**如果~/.ssh目录下已经有密钥文件，则可以使用指定文件路径的方式去生成**
+##### ~~如果~/.ssh目录下已经有密钥文件，则可以使用指定文件路径的方式去生成~~
 
 ```sh
 ssh-keygen -t ed25519 -C "your_email@example.com" -f "$HOME\.ssh\dir\id_ed25519"
 ```
 
-#### 将 SSH 密钥添加到 ssh-agent
+#### ~~将 SSH 密钥添加到 ssh-agent~~
 
 ```sh
 ssh-agent bash --login -i

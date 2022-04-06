@@ -321,7 +321,7 @@ bundle add webrick
 
 ![1649045648(1)](/styles/images/use-jekyll-to-build-blog/1649045648(1).jpg)
 
-#### 附加其他报错参考：https://blog.csdn.net/wudalang_gd/article/details/74619791
+#### 附加其他报错参考：<a href="https://blog.csdn.net/wudalang_gd/article/details/74619791" target="_blank">https://blog.csdn.net/wudalang_gd/article/details/74619791</a>
 
 ## 推送远程地址
 

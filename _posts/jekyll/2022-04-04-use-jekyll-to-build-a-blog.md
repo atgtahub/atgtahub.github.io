@@ -325,11 +325,11 @@ bundle add webrick
 
 ## 推送远程地址
 
-将blog下的文件拷贝到clone的本地仓库目录下
-
-再使用git push命令推送到远程地址
-
-访问 *.github.io 即可成功看到博客页面
+- 将blog下的文件拷贝到clone的本地仓库目录下
+- git add . 命令将所有文件添加到暂存区
+- git commit -m "注释" 命令将文件提交到本地仓库
+- 最后使用git push命令推送到远程地址
+- 访问 username.github.io 即可成功看到博客页面，username替换为自己的用户名
 
 ### 主题
 

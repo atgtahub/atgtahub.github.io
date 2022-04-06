@@ -31,8 +31,7 @@ topping: true
 
 ### 官网地址
 
-https://git-scm.com/
-
+[https://git-scm.com/](https://git-scm.com/)
 
 ### 点击Downloads
 

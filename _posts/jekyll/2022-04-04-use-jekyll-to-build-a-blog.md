@@ -165,7 +165,7 @@ ssh -T git@github.com
 
 ### 使用git
 
-#### 回到主页点击左侧边栏刚刚创建的仓库，复制仓库地址链接
+#### 回到主页点击左侧边栏刚刚创建的仓库，复制仓库地址SSH链接
 
 ![1649041409(1)](/styles/images/use-jekyll-to-build-blog/1649041409(1).jpg)
 
@@ -174,7 +174,7 @@ ssh -T git@github.com
 **输入命令将此项目clone到本地，后面的仓库地址替换掉**
 
 ```sh
-git clone https://github.com/username/username.github.io.git
+git clone git@github.com:username/username.github.io.git
 ```
 
 #### 打开clone下来的仓库目录，右键新建一个文件，随便写几个字
@@ -197,7 +197,7 @@ git add xx.txt
 git status
 ```
 
-提交
+提交本地仓库
 
 ```sh
 git commit -m "注释"
@@ -244,7 +244,7 @@ ruby -v
 gem -v
 ```
 
-~~修改gem镜像源~~
+#### ~~修改gem镜像源~~
 
 - 淘宝镜像源：https://ruby.taobao.org/
 - 其他：https://gems.ruby-china.org/

@@ -14,10 +14,8 @@ topping: true
 ## 需要的环境
 
 - <a href="https://zh.wikipedia.org/wiki/Git" target="_blank">git</a>：一个开源的分布式版本控制系统 
-- github账号
-
+- <a href="https://github.com" target="_blank">github</a>账号：GitHub是一个面向开源及私有软件项目的托管平台
 - <a href="https://zh.wikipedia.org/wiki/Ruby" target="_blank">Ruby</a>：一种简单快捷的面向对象（面向对象程序设计）脚本语言
-
 - DEVKIT：windows平台下编译和使用本地C/C++扩展包的工具
 - <a href="http://jekyllcn.com/" target="_blank">jekyll</a>：一个简单的免费的Blog生成工具
 
@@ -31,7 +29,7 @@ topping: true
 
 ### 官网地址
 
-[https://git-scm.com/](https://git-scm.com/)
+<a href="https://git-scm.com" target="_blank">https://git-scm.com</a>
 
 ### 点击Downloads
 
@@ -72,7 +70,7 @@ git version
 
 ## 注册Github
 
-https://github.com/
+<a href="https://github.com" target="_blank">https://github.com</a>
 
 ### 点击Sign up进行注册
 
@@ -212,14 +210,15 @@ git push
 ```
 
 #### 附加文档
-- 两种验证方式：https://www.cnblogs.com/sober-orange/p/git-token-push.html
-- 官方文档：https://docs.github.com/cn/authentication/connecting-to-github-with-ssh
+- 参考：<a href="https://blog.csdn.net/qq934235475/article/details/119794518" target="_blank">https://blog.csdn.net/qq934235475/article/details/119794518</a>
+- ~~两种验证方式：<a href="https://www.cnblogs.com/sober-orange/p/git-token-push.html" target="_blank">https://www.cnblogs.com/sober-orange/p/git-token-push.html</a>~~
+- ~~官方文档：<a href="https://docs.github.com/cn/authentication/connecting-to-github-with-ssh" target="_blank">https://docs.github.com/cn/authentication/connecting-to-github-with-ssh</a>~~
 
 ## 安装Ruby
 
-- 官方下载地址：https://rubyinstaller.org/downloads/ 请选择WITH DEVKIT下的安装包
+- 官方下载地址：<a href="https://rubyinstaller.org/downloads/" target="_blank">https://rubyinstaller.org/downloads/</a>请选择WITH DEVKIT下的安装包
 
-- 三方地址：http://www.uzzf.com/soft/708115.html
+- 三方地址：<a href="http://www.uzzf.com/soft/708115.html" target="_blank">http://www.uzzf.com/soft/708115.html</a>
 
 ### 双击运行rubyinstaller-devkit-3.0.2-1-x64.exe
 
@@ -334,7 +333,7 @@ bundle add webrick
 
 ### 主题
 
-jekyll 主题：http://jekyllthemes.org/
+jekyll 主题：<a href="http://jekyllthemes.org/" target="_blank">http://jekyllthemes.org/</a>
 
 选择一款合适的博客主题，将仓库clone到本地，除了.git和.github，其他文件复制到自己的本地仓库目录下
 

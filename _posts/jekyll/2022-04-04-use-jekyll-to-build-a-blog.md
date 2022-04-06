@@ -111,7 +111,7 @@ https://github.com/
 
 ##### 生成密钥
 
-youremail@example.com改成注册github时的邮箱账号
+youremail@example.com改成注册github时的邮箱账号，然后会有三次回车
 
 ```sh
 ssh-keygen -t rsa -C "youremail@example.com"

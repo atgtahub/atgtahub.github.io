@@ -17,6 +17,8 @@ permalink: /bangumi/
 + <a href="https://www.bilibili.com/bangumi/play/ss32394" target="_blank">烟花</a>
 + <a href="https://www.bilibili.com/bangumi/play/ss33343" target="_blank">天气之子</a>
 + <a href="https://www.agemys.com/play/20180286" target="_blank">朝花夕誓</a>
++ <a href="https://www.emgvideo.com/player/woxiangchidiaonideyizang-3-1/" target="_blank">我想吃掉你的胰脏</a>
++ <a href="http://www.5zcake.com/dongman/nihaoshijie22/1-1" target="_blank">你好世界</a>
 
 2022
 -

@@ -23,6 +23,7 @@ permalink: /bangumi/
 2022
 -
 + ...
++ <a href="https://www.bilibili.com/bangumi/play/ep508404" target="_blank">间谍过家家</a>
 + <a href="https://www.bilibili.com/bangumi/play/ss281" target="_blank">甘城光辉游乐园</a>
 + <a href="https://www.agemys.com/play/20220070" target="_blank">更衣人偶坠入爱河</a>
 + <a href="https://www.agemys.com/play/20180230" target="_blank">来自多彩世界的明天</a>

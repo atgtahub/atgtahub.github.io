@@ -22,6 +22,7 @@ permalink: /bangumi/
 + <a href="https://www.bilibili.com/bangumi/play/ss34394" target="_blank">路人女主的养成方法 Fine</a>
 + <a href="https://www.yhdmp.cc/showp/21108.html" target="_blank">刀剑神域 进击篇 无星之夜的咏叹调 Fine</a>
 + <a href="https://www.bilibili.com/bangumi/play/ss27042" target="_blank">萤火之森</a>
++ <a href="https://www.yhdmp.cc/showp/22157.html" target="_blank">五等分的新娘剧场版</a>
 
 
 ## 2022

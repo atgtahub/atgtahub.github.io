@@ -1,0 +1,26 @@
+# Site settings
+name: gtahub
+email:
+author: gtahub
+url: https://gtahub.cn
+resume_site: https://gtahub.cn
+github: https://github.com/atgtahub/
+baseurl: ""
+description: Actually, i'm fine.
+meta_description: gtahub
+motto: Leave me alone.
+banner: stay with u
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: atgtahub
+
+# Build settings
+markdown: kramdown
+
+#baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+

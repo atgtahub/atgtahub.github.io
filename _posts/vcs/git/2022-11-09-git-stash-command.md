@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  git stash
-categories: git
+categories: vcs
 tag: git
 ---
 

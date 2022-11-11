@@ -13,7 +13,7 @@ tag: centos
 ## 查看各挂载
 
 ```sh
-df -h
+df -l
 
 
 Filesystem     1K-blocks     Used Available Use% Mounted on

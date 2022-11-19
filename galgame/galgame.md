@@ -5,7 +5,7 @@ permalink: /galgame/galgame
 ---
 
 * content
-  {:toc}
+{:toc}
 
 
 ## 记录

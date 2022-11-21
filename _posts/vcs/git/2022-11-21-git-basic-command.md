@@ -143,3 +143,44 @@ git merge <branch name>
 ```sh
 git clone <git path>
 ```
+
+
+## 查看仓库当前的状态
+
+```sh
+git status
+```
+
+
+## 比较变动
+
+```sh
+git diff
+```
+
+
+## 查看日志
+
+```sh
+git log
+```
+
+一行输出
+```sh
+git log --pretty=oneline
+```
+
+- commit xx: 提交id
+- Merge: xx: 合并的记录
+- Author：xx：提交用户信息
+- Date：xx：提交时间
+- feat(posts): xxx：提交信息
+
+```text
+commit bad20d0865080ed477862065e68bbfc096b8113f
+Author: gtahub <gtahub>
+Date:   Mon Nov 21 14:30:54 2022 +0800
+
+    feat(posts): 2022-11-21-git-basic-command.md
+
+```

@@ -177,10 +177,10 @@ git log --pretty=oneline
 - feat(posts): xxx：提交信息
 
 ```text
-commit bad20d0865080ed477862065e68bbfc096b8113f
-Author: gtahub <gtahub>
-Date:   Mon Nov 21 14:30:54 2022 +0800
+commit xx
+Author: xx <xx@xx.com>
+Date:   xx
 
-    feat(posts): 2022-11-21-git-basic-command.md
+    feat(posts): xxx
 
 ```

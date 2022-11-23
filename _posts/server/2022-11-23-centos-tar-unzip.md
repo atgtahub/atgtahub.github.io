@@ -10,7 +10,7 @@ tag: centos
 {:toc}
 
 
-## tar负责打包，gzip负责压缩
+### tar负责打包，gzip负责压缩
 
 ### tar
 -c: 建立压缩档案

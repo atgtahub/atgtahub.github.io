@@ -12,6 +12,8 @@ tag: centos
 
 ## 查看各挂载
 
+### df -l
+
 ```sh
 df -l
 
@@ -32,8 +34,25 @@ tmpfs            1639144        0   1639144   0% /run/user/1000
 /dev/loop1         56960    56960         0 100% /snap/core18/2620
 ```
 
+### df -h
+
 ```sh
 df -h
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            7.9G     0  7.9G   0% /dev
+tmpfs           1.6G  824K  1.6G   1% /run
+/dev/xvda1       59G   36G   23G  62% /
+tmpfs           7.9G     0  7.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/loop4       26M   26M     0 100% /snap/amazon-ssm-agent/5656
+tmpfs           1.6G     0  1.6G   0% /run/user/1000
+/dev/loop2       25M   25M     0 100% /snap/amazon-ssm-agent/6312
+/dev/loop1       56M   56M     0 100% /snap/core18/2620
+/dev/loop0       56M   56M     0 100% /snap/core18/2632
+/dev/loop3       50M   50M     0 100% /snap/snapd/17883
 ```
 
 
@@ -69,7 +88,6 @@ du: cannot access './proc/11101/fdinfo/3': No such file or directory
 15M	./sbin
 4.0K	./media
 36G	.
-
 ```
 
 

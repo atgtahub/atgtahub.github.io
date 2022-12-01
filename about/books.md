@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的书单
-permalink: /about/books
+permalink: /books
 ---
 
 * content

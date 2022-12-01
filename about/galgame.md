@@ -1,7 +1,7 @@
 ---
 layout: post
 title: galgame
-permalink: /about/galgame
+permalink: /galgame
 ---
 
 * content

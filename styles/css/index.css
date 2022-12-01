@@ -30,7 +30,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  /**/
+  /*-webkit-filter: grayscale(100%);*/
   filter: grayscale(100%);
 }
 body {

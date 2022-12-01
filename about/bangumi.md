@@ -1,7 +1,7 @@
 ---
 layout: post
 title: animation
-permalink: /bangumi/
+permalink: /about/bangumi
 ---
 
 * content

@@ -1,5 +1,10 @@
 <!DOCTYPE html>
+{% if page.title == null %}
+<html class="filter-gray">
+{% else %}
 <html>
+{% endif %}
+
 
   {% include head.html %}
 

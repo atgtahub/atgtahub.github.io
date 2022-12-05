@@ -7,9 +7,8 @@ tag: gui
 
 
 * content
-  {:toc}
+{:toc}
 
-# Mac下安装Navicat
 
 
 
@@ -34,7 +33,7 @@ tag: gui
 
 编辑Contents\Resource\rpk文件，将里面的密钥替换为
 
-```
+```text
 -----BEGIN PUBLIC KEY-----
 MIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQB8vXG0ImYhLHvHhpi5FS3g
 d2QhxSQiU6dQ04F1OHB0yRRQ3NXF5py2NNDw962i4WP1zpUOHh94/mg/KA8KHNJX
@@ -52,7 +51,7 @@ AgMBAAE=
 
 **断网**打开navicat后输入密钥序列号
 
-```
+```text
 中文版64位密钥序列号： NAVH-T4PX-WT8W-QBL5
 英文版64位密钥序列号： NAVG-UJ8Z-EVAP-JAUW
 ```
@@ -61,11 +60,11 @@ AgMBAAE=
 
 点击激活，手动激活，复制请求码
 
-打开http://www.metools.info/code/c81.html在线RSA加解密网址
+打开<a href="http://www.metools.info/code/c81.html" target="_blank">在线RSA加解密网址</a>
 
 输入私钥
 
-```
+```text
 -----BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQB8vXG0ImYhLHvHhpi5FS3gd2QhxSQiU6dQ04F1OHB0yRRQ3NXF
 5py2NNDw962i4WP1zpUOHh94/mg/KA8KHNJXHtQVLXMRms+chomsQCwkDi2jbgUa
@@ -101,7 +100,7 @@ H+aU1Qu1ZYojFM1Gmbe4HeYDOzRsJ5BhNrrV12h27JWkiRJ4F/Q=
 
 得到类似于这样的json
 
-```
+```json
 {
 	"K": "*",
 	"N": "52pojie",
@@ -115,11 +114,11 @@ H+aU1Qu1ZYojFM1Gmbe4HeYDOzRsJ5BhNrrV12h27JWkiRJ4F/Q=
 
 
 
-打开此网站https://tool.lu/timestamp/获取unix时间戳(秒级别)，然后将上文中的T替换为获取的时间戳
+打开<a href="https://tool.lu/timestamp/" target="_blank">获取unix时间戳(秒级别)</a>，然后将上文中的T替换为获取的时间戳
 
 
 
-打开http://www.metools.info/code/c81.html（刚刚打开的加解密网站）填入私钥，再将替换好的内容粘贴到待加解密的内容中
+打开<a href="http://www.metools.info/code/c81.html" target="_blank">在线RSA加解密网址</a>（刚刚打开的加解密网站）填入私钥，再将替换好的内容粘贴到待加解密的内容中
 
 
 
@@ -131,5 +130,5 @@ H+aU1Qu1ZYojFM1Gmbe4HeYDOzRsJ5BhNrrV12h27JWkiRJ4F/Q=
 
 （后面再补图片和排版）
 
-参考原文：https://www.yingsoo.com/news/database/49223.html
+参考原文：<a href="https://www.yingsoo.com/news/database/49223.html" targer="_blank">https://www.yingsoo.com/news/database/49223.html</a>
 

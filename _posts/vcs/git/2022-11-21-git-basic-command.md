@@ -184,3 +184,10 @@ Date:   xx
     feat(posts): xxx
 
 ```
+
+
+## 查看git-url
+
+```sh
+git ls-remote --get-url origin
+```

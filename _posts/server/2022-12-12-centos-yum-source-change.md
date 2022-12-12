@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  更换yum源
+title:  centos更换yum源
 categories: server
 tag: centos
 ---

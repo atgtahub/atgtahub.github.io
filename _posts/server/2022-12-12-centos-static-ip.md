@@ -50,7 +50,7 @@ IP地址范围128开始，所以配置虚拟机的IP时最后一位要≥128且�
 
 ### 查看子网掩码和网关
 
-![打开NAT设置]({{ '/styles/images/centos/2022-12-12-centos-static-ip/sp20221212_144257_336.png' | prepend: site.baseurl  }})
+![打开NAT设置]({{ '/styles/images/centos/2022-12-12-centos-static-ip/Snipaste_2022-12-12_15-36-50.png' | prepend: site.baseurl  }})
 
 ## 配置静态IP
 

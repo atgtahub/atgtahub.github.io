@@ -25,3 +25,4 @@ tag: idea
 - MybatisX：mybatis -> xml
 - One Dark theme：黑色主题
 - Translation：翻译
+- Codota AI Autocomplete for Java and JavaScript：代码提示

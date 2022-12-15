@@ -38,7 +38,7 @@ tar -zxvf jdk-8u221-linux-x64.tar.gz
 - z: gzip属性
 - x: 解压
 - v: 显示所有过程
-- f: 使用档案名(xxx.tar.gz中的xxx)
+- f: 使用档案名(压缩文件内的目录名)
 
 
 ## 配置

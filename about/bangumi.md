@@ -27,6 +27,10 @@ permalink: /bangumi
 
 ## 2022
 
+### 十二月
+
+> + <a href="https://www.yhdmp.cc/showp/11094.html" target="_blank">未来日记</a>
+
 ### 十月
 
 > + <a href="https://www.yhdmp.cc/showp/22174.html" target="_blank">夏日重现</a>

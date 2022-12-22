@@ -133,5 +133,5 @@ H+aU1Qu1ZYojFM1Gmbe4HeYDOzRsJ5BhNrrV12h27JWkiRJ4F/Q=
 参考原文
 -
 
-<a href="https://www.yingsoo.com/news/database/49223.html" targer="_blank">https://www.yingsoo.com/news/database/49223.html</a>
+- <a href="https://www.yingsoo.com/news/database/49223.html" targer="_blank">https://www.yingsoo.com/news/database/49223.html</a>
 

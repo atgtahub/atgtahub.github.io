@@ -101,7 +101,11 @@ du -h --max-depth=1
 ## 查看已删除空间却没有释放的进程
 
 ```sh
-lsof -n / | grep deleted less
+lsof -n / | grep deleted
+```
+
+```sh
+lsof -n | grep deleted | less
 ```
 
 - less: 命令行以翻页形式

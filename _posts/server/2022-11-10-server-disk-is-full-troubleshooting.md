@@ -98,5 +98,44 @@ cd data
 du -h --max-depth=1
 ```
 
+## 查看已删除空间却没有释放的进程
 
-- <a href="https://m.php.cn/article/472912.html" target="_blank">ref</a>
+```sh
+lsof -n / | grep deleted less
+```
+
+- less: 命令行以翻页形式
+
+```text
+java       5021                  root    0u      CHR              136,5         0t0          8 /dev/pts/5 (deleted)
+java       5021                  root    1w      REG              202,1 33555754705    2576253 /server/null (deleted)
+java       5021                  root    2w      REG              202,1 33555754705    2576253 /server/null (deleted)
+java       5021  5033            root    0u      CHR              136,5         0t0          8 /dev/pts/5 (deleted)
+java       5021  5033            root    1w      REG              202,1 33555742901    2576253 /server/null (deleted)
+java       5021  5033            root    2w      REG              202,1 33555742901    2576253 /server/null (deleted)
+java       5021  5034            root    0u      CHR              136,5         0t0          8 /dev/pts/5 (deleted)
+java       5021  5034            root    1w      REG              202,1 33555742901    2576253 /server/null (deleted)
+java       5021  5034            root    2w      REG              202,1 33555742901    2576253 /server/null (deleted)
+java       5021  5035            root    0u      CHR              136,5         0t0          8 /dev/pts/5 (deleted)
+java       5021  5035            root    1w      REG              202,1 33555745171    2576253 /server/null (deleted)
+java       5021  5035            root    2w      REG              202,1 33555745171    2576253 /server/null (deleted)
+java       5021  5036            root    0u      CHR              136,5         0t0          8 /dev/pts/5 (deleted)
+java       5021  5036            root    1w      REG              202,1 33555745398    2576253 /server/null (deleted)
+java       5021  5036            root    2w      REG              202,1 33555745398    2576253 /server/null (deleted)
+java       5021  5037            root    0u      CHR              136,5         0t0          8 /dev/pts/5 (deleted)
+java       5021  5037            root    1w      REG              202,1 33555745625    2576253 /server/null (deleted)
+java       5021  5037            root    2w      REG              202,1 33555745625    2576253 /server/null (deleted)
+```
+
+### kill进程
+
+```sh
+kill -9 5021
+```
+
+
+参考原文
+-
+
+- <a href="https://m.php.cn/article/472912.html" target="_blank">https://m.php.cn/article/472912.html</a>
+

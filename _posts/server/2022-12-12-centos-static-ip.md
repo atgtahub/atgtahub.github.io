@@ -102,4 +102,7 @@ systemctl restart network
 ip addr
 ```
 
-引用：<a href="https://zhangjc.blog.csdn.net/article/details/123015680" target="_blank">https://zhangjc.blog.csdn.net/article/details/123015680</a>
+参考原文
+-
+
+- <a href="https://zhangjc.blog.csdn.net/article/details/123015680" target="_blank">https://zhangjc.blog.csdn.net/article/details/123015680</a>

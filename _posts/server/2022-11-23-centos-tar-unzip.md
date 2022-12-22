@@ -75,4 +75,7 @@ tag: centos
 - 9、.zip 用 unzip 解压
 
 
-转载于: <b><a href="https://www.cnblogs.com/jiduoduo/p/15368582.html" target="_blank">https://www.cnblogs.com/jiduoduo/p/15368582.html</a></b>
+参考原文
+-
+
+- <a href="https://www.cnblogs.com/jiduoduo/p/15368582.html" target="_blank">https://www.cnblogs.com/jiduoduo/p/15368582.html</a>

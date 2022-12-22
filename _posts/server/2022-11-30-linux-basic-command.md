@@ -104,7 +104,10 @@ ps aux | grep java
 - 如果想查看进程的CPU占用率和内存占用率，可以使用aux 
 - 如果想查看进程的父进程ID和完整的COMMAND命令，可以使用ef
 
-### <a href="http://t.zoukankan.com/fanren224-p-8457288.html" target="_blank">引用地址</a>
+参考原文
+-
+
+- <a href="http://t.zoukankan.com/fanren224-p-8457288.html" target="_blank">http://t.zoukankan.com/fanren224-p-8457288.html</a>
 
 
 ## 查看文件

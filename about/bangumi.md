@@ -30,6 +30,7 @@ permalink: /bangumi
 ### 十二月
 
 > + <a href="https://www.yhdmp.cc/showp/11094.html" target="_blank">未来日记</a>
+> + <a href="https://www.yhdmp.cc/showp/20219.html" target="_blank">租借女友</a>
 
 ### 十月
 
@@ -43,6 +44,7 @@ permalink: /bangumi
 ### 八月
 
 > + <a href="https://www.yhdmp.cc/showp/18126.html" target="_blank">DARLING in the FRANXX</a>
+> + <a href="https://www.yhdmp.cc/showp/20369.html" target="_blank">剃须。然后捡到女高中生</a>
 
 ### 七月
 

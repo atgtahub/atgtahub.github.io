@@ -24,6 +24,21 @@ permalink: /bangumi
 + <a href="https://www.bilibili.com/bangumi/play/ss27042" target="_blank">萤火之森</a>
 + <a href="https://www.yhdmp.cc/showp/22157.html" target="_blank">五等分的新娘剧场版</a>
 
+## 2023
+
+### 一月
+
+todo
+-
+
+> + <a href="https://www.yhdmp.cc/showp/23087.html" target="_blank">智酱是女生</a>
+> + <a href="https://www.bilibili.com/bangumi/play/ep710543" target="_blank">虚构推理第二季</a>
+> + <a href="https://www.bilibili.com/bangumi/play/ss44151" target="_blank">因为太怕痛就全点防御力了第二季</a>
+> + <a href="https://www.yhdmp.cc/showp/22305.html" target="_blank">间谍教室</a>
+> + <a href="https://www.yhdmp.cc/showp/22225.html" target="_blank">关于邻家的天使大人不知不觉把我惯成了废人这档子事</a>
+> + <a href="https://www.yhdmp.cc/showp/22315.html" target="_blank">生而为狗 我很幸福</a>
+> + <a href="https://www.yhdmp.cc/showp/22215.html" target="_blank">傲娇反派大小姐莉泽洛特与直播的远藤君和解说员小林</a>
+
 
 ## 2022
 

@@ -28,8 +28,7 @@ permalink: /bangumi
 
 ### 一月
 
-todo
--
+#### todo
 
 > + <a href="https://www.yhdmp.cc/showp/23087.html" target="_blank">智酱是女生</a>
 > + <a href="https://www.bilibili.com/bangumi/play/ep710543" target="_blank">虚构推理第二季</a>

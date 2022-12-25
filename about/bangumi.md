@@ -37,6 +37,8 @@ permalink: /bangumi
 > + <a href="https://www.yhdmp.cc/showp/22225.html" target="_blank">关于邻家的天使大人不知不觉把我惯成了废人这档子事</a>
 > + <a href="https://www.yhdmp.cc/showp/22315.html" target="_blank">生而为狗 我很幸福</a>
 > + <a href="https://www.yhdmp.cc/showp/22215.html" target="_blank">傲娇反派大小姐莉泽洛特与直播的远藤君和解说员小林</a>
+> + <a href="http://www.ntyou.cc/video/4474.html" target="_blank">青春猪头少年不会梦到兔女郎学姐第二季</a>
+> + <a href="http://www.ntyou.cc/video/4464.html" target="_blank">更衣人偶坠入爱河第二季</a>
 
 
 ## 2022

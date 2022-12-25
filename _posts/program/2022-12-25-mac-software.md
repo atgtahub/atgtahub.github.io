@@ -31,7 +31,7 @@ tag: software
 
 ## 客户端工具
 > ### mysql
-> + <a href="http://www.navicat.com.cn/download/navicat-premium" target="_blank">navicat</a>
+> + <a href="http://www.navicat.com.cn/download/navicat-premium#mac" target="_blank">navicat</a>
 >
 > ### redis
 > + <a href="https://redis.com/redis-enterprise/redis-insight/" target="_blank">RedisInsight</a>

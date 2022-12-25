@@ -35,16 +35,16 @@ tag: software
 >
 > ### redis
 > + <a href="https://redis.com/redis-enterprise/redis-insight/" target="_blank">RedisInsight</a>
-> + <a href="https://github.com/RedisInsight/RedisDesktopManager/releases">Redis Desktop Manager</a>
+> + <a href="https://github.com/RedisInsight/RedisDesktopManager/releases" target="_blank">Redis Desktop Manager</a>
 >
 > ### ssh&ftp
-> + <a href="https://www.royalapps.com/ts/mac/download">Royal TSX</a>
+> + <a href="https://www.royalapps.com/ts/mac/download" target="_blank">Royal TSX</a>
 > 
 > ### docker
-> + <a href="https://www.docker.com/products/docker-desktop/">docker desktop</a>
+> + <a href="https://www.docker.com/products/docker-desktop/" target="_blank">docker desktop</a>
 
 ## 虚拟机
-> + <a href="https://mac.getutm.app/">UTM</a>
+> + <a href="https://mac.getutm.app/" target="_blank">UTM</a>
 
 ## 测试
 > + <a href="https://www.postman.com/downloads/" target="_blank">postman</a>

@@ -5,7 +5,7 @@ permalink: /wallpaper
 ---
 
 * content
-  {:toc}
+{:toc}
 
 
 国家队

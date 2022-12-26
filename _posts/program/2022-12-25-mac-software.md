@@ -42,6 +42,9 @@ tag: software
 > 
 > ### docker
 > + <a href="https://www.docker.com/products/docker-desktop/" target="_blank">docker desktop</a>
+> 
+> ### host
+> + <a href="https://www.macw.com/mac/3382.html" target="_blank">SwitchHosts</a>
 
 ## 虚拟机
 > + <a href="https://mac.getutm.app/" target="_blank">UTM</a>

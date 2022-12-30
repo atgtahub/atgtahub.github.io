@@ -7,7 +7,7 @@ tag: idea
 
 
 * content
-  {:toc}
+{:toc}
 
 
 

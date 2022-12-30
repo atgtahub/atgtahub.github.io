@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Mac常用软件
-categories: nac
+categories: mac
 tag: app
 ---
 

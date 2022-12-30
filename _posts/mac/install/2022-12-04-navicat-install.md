@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  mac安装navicat
-categories: GUI
+categories: mac
 tag: gui
 ---
 

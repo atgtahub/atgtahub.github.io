@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Mac常用软件
-categories: develop
-tag: software
+categories: nac
+tag: app
 ---
 
 
@@ -24,6 +24,7 @@ tag: software
 > + <a href="https://www.jetbrains.com.cn/go/download/#section=mac" target="_blank">goland</a>
 > + <a href="https://www.jetbrains.com.cn/pycharm/download/#section=mac" target="_blank">pycharm</a>
 > + <a href="https://www.jetbrains.com.cn/fleet/download/#section=mac" target="_blank">fleet</a>
+> + <a href="https://code.visualstudio.com/Download" target="_blank">Visual Studio Code</a>
 
 ## 数据库
 > + <a href="https://dev.mysql.com/downloads/mysql/" target="_blank">mysql</a>
@@ -51,6 +52,18 @@ tag: software
 
 ## 测试
 > + <a href="https://www.postman.com/downloads/" target="_blank">postman</a>
+
+## 页面工具
+> + 取色器：<a href="https://apps.apple.com/cn/app/id1507890049" target="_blank">Pixeur</a>
+
+## 包管理工具
+> + <a href="https://brew.sh/index_zh-cn" target="_blank">brew</a>
+>   + gitee: <a href="https://gitee.com/cunkai/HomebrewCN" target="_blank">https://gitee.com/cunkai/HomebrewCN</a>
+>   + 优先选择中科大镜像源
+>     ```sh
+>     /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+>     ```
+
 
 
 # 编辑器

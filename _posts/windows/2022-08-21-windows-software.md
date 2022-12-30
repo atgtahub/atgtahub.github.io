@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Windows常用软件
-categories: develop
+categories: windows
 tag: software
 ---
 

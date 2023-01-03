@@ -28,6 +28,8 @@ permalink: /bangumi
 
 ### 一月
 
+> + <a href="https://www.bilibili.com/bangumi/play/ss26870" target="_blank">此女子 甚可爱 不说话 只举牌</a>
+
 #### todo
 
 > + <a href="https://www.yhdmp.cc/showp/23087.html" target="_blank">智酱是女生</a>

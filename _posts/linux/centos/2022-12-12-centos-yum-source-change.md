@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  centos更换yum源
-categories: server
+categories: linux
 tag: centos
 ---
 

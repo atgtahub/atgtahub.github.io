@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Linux常用命令
-categories: server
+categories: linux
 tag: centos
 ---
 

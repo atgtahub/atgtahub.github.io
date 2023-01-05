@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  VMware虚拟机配置静态ip
-categories: server
+categories: linux
 tag: centos
 ---
 

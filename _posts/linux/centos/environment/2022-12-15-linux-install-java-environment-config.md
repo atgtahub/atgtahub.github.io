@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  linux配置java环境
-categories: linux
+categories: Linux
 tag: environment
 ---
 

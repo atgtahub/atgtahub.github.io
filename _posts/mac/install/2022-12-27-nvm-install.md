@@ -77,7 +77,7 @@ node -v
 
 #### 安装命令
 
-release：https://github.com/nvm-sh/nvm/releases
+release：<a href="https://github.com/nvm-sh/nvm/releases" target="_blank">https://github.com/nvm-sh/nvm/releases</a>
 ```sh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.37.0/install.sh | bash
 ```

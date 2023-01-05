@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Springboot配置国际化消息
+title:  maven项目初始化到git
 categories: java
 tag: maven
 ---
@@ -80,5 +80,5 @@ git commit -m "init project"
 git push -u origin master
 ```
 
-![提交本次修改]({{ '/assets/posts/java/build/maven/maven-project-initialization-to-git/Snipaste_2023-01-05_17-15-51.png' | prepend: site.baseurl  }})
+![推送远程仓库]({{ '/assets/posts/java/build/maven/maven-project-initialization-to-git/Snipaste_2023-01-05_17-15-51.png' | prepend: site.baseurl  }})
 

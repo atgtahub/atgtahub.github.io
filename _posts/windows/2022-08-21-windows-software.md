@@ -65,7 +65,6 @@ tag: software
 
 # 编辑器
 
-> + <a href="https://notepad-plus-plus.org/downloads/" target="_blank">notepad++</a>
 ## 富文本
 > + <a href="https://typora.io/#download" target="_blank">typora</a>
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  VMware虚拟机配置静态ip
+title:  CentOS VMware虚拟机配置静态ip
 categories: linux
 tag: centos
 ---
@@ -41,16 +41,16 @@ cat /etc/sysconfig/network-scripts/ifcfg-ens33
 
 ### 打开虚拟网络编辑器
 
-![打开虚拟网络编辑器]({{ '/styles/images/centos/2022-12-12-centos-static-ip/Snipaste_2022-12-12_15-06-33.png' | prepend: site.baseurl  }})
+![打开虚拟网络编辑器]({{ '/assets/posts/linux/centos/2022-12-12-centos-static-ip/Snipaste_2022-12-12_15-06-33.png' | prepend: site.baseurl  }})
 
 ### 查看IP范围
 
 IP地址范围128开始，所以配置虚拟机的IP时最后一位要≥128且≤254
-![打开DHCP设置]({{ '/styles/images/centos/2022-12-12-centos-static-ip/sp20221212_144245_042.png' | prepend: site.baseurl  }})
+![打开DHCP设置]({{ '/assets/posts/linux/centos/2022-12-12-centos-static-ip/sp20221212_144245_042.png' | prepend: site.baseurl  }})
 
 ### 查看子网掩码和网关
 
-![打开NAT设置]({{ '/styles/images/centos/2022-12-12-centos-static-ip/Snipaste_2022-12-12_15-36-50.png' | prepend: site.baseurl  }})
+![打开NAT设置]({{ '/assets/posts/linux/centos/2022-12-12-centos-static-ip/Snipaste_2022-12-12_15-36-50.png' | prepend: site.baseurl  }})
 
 ## 配置静态IP
 

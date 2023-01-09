@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  centos7 tar.gz zip 解压命令
+title:  CentOS tar.gz zip 解压命令
 categories: linux
 tag: centos
 ---

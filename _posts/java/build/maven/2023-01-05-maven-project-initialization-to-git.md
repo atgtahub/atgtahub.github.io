@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  maven项目初始化到git
+title:  Maven项目初始化到git
 categories: java
 tag: maven
 ---

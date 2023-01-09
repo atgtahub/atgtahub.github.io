@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  git基础命令
+title:  Git基础命令
 categories: vcs
 tag: git
 ---

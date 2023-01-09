@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  idea常用插件
+title:  IDEA常用插件
 categories: IDE
 tag: idea
 ---

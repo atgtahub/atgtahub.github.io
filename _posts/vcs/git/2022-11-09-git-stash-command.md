@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  git stash
+title:  Git stash
 categories: vcs
 tag: git
 ---

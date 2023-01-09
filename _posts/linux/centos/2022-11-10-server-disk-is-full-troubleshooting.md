@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  排查服务器磁盘占满
+title:  Linux排查服务器磁盘占满
 categories: linux
 tag: centos
 ---

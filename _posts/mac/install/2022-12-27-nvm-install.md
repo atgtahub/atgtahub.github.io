@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  mac安装nvm
+title:  Mac安装nvm
 categories: mac
 tag: nodejs
 ---

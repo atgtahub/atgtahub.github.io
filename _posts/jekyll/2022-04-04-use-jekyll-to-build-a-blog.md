@@ -33,30 +33,30 @@ topping: true
 
 ### 点击Downloads
 
-![1649036843](/styles/images/use-jekyll-to-build-blog/1649036843.jpg)
+![1649036843]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649036843.jpg' | prepend: site.baseurl }})
 
 
 ### 选择Windows
 
-![1649036881(1)](/styles/images/use-jekyll-to-build-blog/1649036881(1).jpg)
+![1649036881(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649036881(1).jpg' | prepend: site.baseurl }})
 
 ### 选择32位或64位操作系统
 
-![1649037069(1)](/styles/images/use-jekyll-to-build-blog/1649037069(1).jpg)
+![1649037069(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649037069(1).jpg' | prepend: site.baseurl }})
 
 ### 安装
 
 #### 双击打开Git-2.23.0-64-bit.exe，点击next
 
-![1649037304(1)](/styles/images/use-jekyll-to-build-blog/1649037304(1).jpg)
+![1649037304(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649037304(1).jpg' | prepend: site.baseurl }})
 
 #### 选择安装目录后一直next
 
-![1649037529(1)](/styles/images/use-jekyll-to-build-blog/1649037529(1).jpg)
+![1649037529(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649037529(1).jpg' | prepend: site.baseurl }})
 
 #### 安装完成后win+R快捷键打开dos窗口
 
-![1649037706(1)](/styles/images/use-jekyll-to-build-blog/1649037706(1).jpg)
+![1649037706(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649037706(1).jpg' | prepend: site.baseurl }})
 
 #### 输入命令
 
@@ -64,7 +64,7 @@ topping: true
 git version
 ```
 
-![1649037781(1)](/styles/images/use-jekyll-to-build-blog/1649037781(1).jpg)
+![1649037781(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649037781(1).jpg' | prepend: site.baseurl }})
 
 
 
@@ -74,33 +74,33 @@ git version
 
 ### 点击Sign up进行注册
 
-![1649037948(1)](/styles/images/use-jekyll-to-build-blog/1649037948(1).jpg)
+![1649037948(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649037948(1).jpg' | prepend: site.baseurl }})
 
 ### 输入邮箱、密码和用户名(仅可使用英文大小写+数字)，是否通过电子邮件接收产品更新和公告吗？输入y或n，点击continue，过一下人机验证点击create account
 
-![1649038518(1)](/styles/images/use-jekyll-to-build-blog/1649038518(1).jpg)
+![1649038518(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649038518(1).jpg' | prepend: site.baseurl }})
 
 ### 登录邮箱查看验证码，填写
 
-![1649038810(1)](/styles/images/use-jekyll-to-build-blog/1649038810(1).jpg)
+![1649038810(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649038810(1).jpg' | prepend: site.baseurl }})
 
-![1649038876(1)](/styles/images/use-jekyll-to-build-blog/1649038876(1).jpg)
+![1649038876(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649038876(1).jpg' | prepend: site.baseurl }})
 
-![1649039048(1)](/styles/images/use-jekyll-to-build-blog/1649039048(1).jpg)
+![1649039048(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649039048(1).jpg' | prepend: site.baseurl }})
 
 ### 新建一个仓库
 
-![1649039228(1)](/styles/images/use-jekyll-to-build-blog/1649039228(1).jpg)
+![1649039228(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649039228(1).jpg' | prepend: site.baseurl }})
 
 ### 仓库名称为: 账号名.github.io，公共仓库，初始化添加一个readme.md文件
 
-![1649039561(1)](/styles/images/use-jekyll-to-build-blog/1649039561(1).jpg)
+![1649039561(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649039561(1).jpg' | prepend: site.baseurl }})
 
 ### 配置ssh key
 
 #### 在桌面鼠标右击选择Git Bash Here
 
-![1649040647(1)](/styles/images/use-jekyll-to-build-blog/1649040647(1).jpg)
+![1649040647(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649040647(1).jpg' | prepend: site.baseurl }})
 
 
 
@@ -145,17 +145,17 @@ ssh-add ~/.ssh/id_ed25519
 
 #### 点击头像选择settings
 
-![1649039798(1)](/styles/images/use-jekyll-to-build-blog/1649039798(1).jpg)
+![1649039798(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649039798(1).jpg' | prepend: site.baseurl }})
 
-![1649039902(1)](/styles/images/use-jekyll-to-build-blog/1649039902(1).jpg)
+![1649039902(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649039902(1).jpg' | prepend: site.baseurl }})
 
 #### 选择添加一个密钥
 
-![1649040975(1)](/styles/images/use-jekyll-to-build-blog/1649040975(1).jpg)
+![1649040975(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649040975(1).jpg' | prepend: site.baseurl }})
 
 #### 随便输入一个标题，使用文本编辑器打开id_rsa.pub文件将里面的内容复制粘贴到Key的文本框中，点击Add SSH Key
 
-![1649041051(1)](/styles/images/use-jekyll-to-build-blog/1649041051(1).jpg)
+![1649041051(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649041051(1).jpg' | prepend: site.baseurl }})
 
 #### 测试连接
 
@@ -167,7 +167,7 @@ ssh -T git@github.com
 
 #### 回到主页点击左侧边栏刚刚创建的仓库，复制仓库地址SSH链接
 
-![1649041409(1)](/styles/images/use-jekyll-to-build-blog/1649041409(1).jpg)
+![1649041409(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649041409(1).jpg' | prepend: site.baseurl }})
 
 #### 回到桌面，右键打开Git Bash Here
 
@@ -179,7 +179,7 @@ git clone git@github.com:username/username.github.io.git
 
 #### 打开clone下来的仓库目录，右键新建一个文件，随便写几个字
 
-![1649041736(1)](/styles/images/use-jekyll-to-build-blog/1649041736(1).jpg)
+![1649041736(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649041736(1).jpg' | prepend: site.baseurl }})
 
 #### 将文件提交到本地仓库
 
@@ -224,11 +224,11 @@ git push
 
 #### 选择I accept the License
 
-![1649044104(1)](/styles/images/use-jekyll-to-build-blog/1649044104(1).jpg)
+![1649044104(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649044104(1).jpg' | prepend: site.baseurl }})
 
 #### 选择安装目录，install、下一步即可
 
-![1649044143(1)](/styles/images/use-jekyll-to-build-blog/1649044143(1).jpg)
+![1649044143(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649044143(1).jpg' | prepend: site.baseurl }})
 
 #### 安装验证
 
@@ -287,7 +287,7 @@ bundle -v
 
 #### 随便找个文件夹在窗口栏输入cmd打开
 
-![1649045277(1)](/styles/images/use-jekyll-to-build-blog/1649045277(1).jpg)
+![1649045277(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649045277(1).jpg' | prepend: site.baseurl }})
 
 #### 输入命令新建博客
 
@@ -295,7 +295,7 @@ bundle -v
 jekyll new blog
 ```
 
-![1649045472(1)](/styles/images/use-jekyll-to-build-blog/1649045472(1).jpg)
+![1649045472(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649045472(1).jpg' | prepend: site.baseurl }})
 
 #### 运行
 
@@ -309,7 +309,7 @@ cd blog
 jekyll server
 ```
 
-![1649045523](/styles/images/use-jekyll-to-build-blog/1649045523.jpg)
+![1649045523]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649045523.jpg' | prepend: site.baseurl }})
 
 #### 报错先运行此命令再重新运行
 
@@ -319,7 +319,7 @@ bundle add webrick
 
 #### 启动成功在浏览器访问<a href="http://127.0.0.1:4000" target="_blank">127.0.0.1:4000</a>
 
-![1649045648(1)](/styles/images/use-jekyll-to-build-blog/1649045648(1).jpg)
+![1649045648(1)]({{ '/assets/posts/jekyll/2022-04-04-use-jekyll-to-build-a-blog/1649045648(1).jpg' | prepend: site.baseurl }})
 
 #### 附加其他报错参考：<a href="https://blog.csdn.net/wudalang_gd/article/details/74619791" target="_blank">https://blog.csdn.net/wudalang_gd/article/details/74619791</a>
 

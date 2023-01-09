@@ -19,7 +19,7 @@ tag: environment
 
 ### 使用ftp工具上传到服务器
 
-![上传文件]({{ '/styles/images/install/environment/Snipaste_2022-12-15_09-58-46.png' | prepend: site.baseurl  }})
+![上传文件]({{ '/assets/posts/linux/centos/environment/2022-12-15-linux-install-java-environment-config/Snipaste_2022-12-15_09-58-46.png' | prepend: site.baseurl  }})
 
 ### 移动到/opt或/usr/local目录下
 

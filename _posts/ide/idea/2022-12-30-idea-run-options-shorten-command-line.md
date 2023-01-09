@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  idea run command to long
+title:  IDEA run command to long
 categories: IDE
 tag: idea
 ---

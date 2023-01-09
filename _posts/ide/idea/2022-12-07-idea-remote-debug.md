@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  idea远程debug
+title:  IDEA远程debug
 categories: IDE
 tag: idea
 ---
@@ -49,7 +49,7 @@ tag: idea
 
 ## ~~重新打包~~
 
-![打包]({{ '/styles/images/idea/2022-12-07-idea-remote-debug\Snipaste_2022-12-07_16-09-18.png' | prepend: site.baseurl  }})
+![打包]({{ '/assets/posts/ide/idea/2022-12-07-idea-remote-debug/Snipaste_2022-12-07_16-09-18.png' | prepend: site.baseurl  }})
 
 ## ~~启动jar并且带启动参数支持远程调试~~
 
@@ -67,20 +67,20 @@ java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 -jar rem
 
 ### IDEA启动项下拉，添加配置
 
-![启动项下拉，选择 Add Configurations编辑配置]({{ '/styles/images/idea/2022-12-07-idea-remote-debug\Snipaste_2022-12-07_16-17-23.png' | prepend: site.baseurl  }})
+![启动项下拉，选择 Add Configurations编辑配置]({{ '/assets/posts/ide/idea/2022-12-07-idea-remote-debug/Snipaste_2022-12-07_16-17-23.png' | prepend: site.baseurl  }})
 
 
 ### 点击+，选择Remote，添加远程DEBUG配置
 
-![选择Remote，添加远程DEBUG配置]({{ '/styles/images/idea/2022-12-07-idea-remote-debug\Snipaste_2022-12-07_17-01-25.png' | prepend: site.baseurl  }})
+![选择Remote，添加远程DEBUG配置]({{ '/assets/posts/ide/idea/2022-12-07-idea-remote-debug/Snipaste_2022-12-07_17-01-25.png' | prepend: site.baseurl  }})
 
 
 ### 添加远程DEBUG配置项，Host和Port，选择一个模块，配置后，点击Apply和OK按钮
 
-![配置Remote]({{ '/styles/images/idea/2022-12-07-idea-remote-debug\Snipaste_2022-12-07_16-53-11.png' | prepend: site.baseurl  }})
+![配置Remote]({{ '/assets/posts/ide/idea/2022-12-07-idea-remote-debug/Snipaste_2022-12-07_16-53-11.png' | prepend: site.baseurl  }})
 
 
 ## 启动调试，在需要调试的位置打上断点
 
-![配置Remote]({{ '/styles/images/idea/2022-12-07-idea-remote-debug\Snipaste_2022-12-07_16-58-48.png' | prepend: site.baseurl  }})
+![配置Remote]({{ '/assets/posts/ide/idea/2022-12-07-idea-remote-debug/Snipaste_2022-12-07_16-58-48.png' | prepend: site.baseurl  }})
 

@@ -132,6 +132,6 @@ ps -ef | grep java
 参考原文
 -
 
-<a href="https://blog.csdn.net/zpflwy1314/article/details/95382353" target="_blank">JVM内存分析工具jstack,jstat与jmap的使用</a>
-<a href="https://www.pudn.com/news/62ea171555398e076b1a2fe0.html" target="_blank">JVM内存分析工具jstack,jstat,jmap的使用</a>
+- <a href="https://blog.csdn.net/zpflwy1314/article/details/95382353" target="_blank">JVM内存分析工具jstack,jstat与jmap的使用</a>
+- <a href="https://www.pudn.com/news/62ea171555398e076b1a2fe0.html" target="_blank">JVM内存分析工具jstack,jstat,jmap的使用</a>
 

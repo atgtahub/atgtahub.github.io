@@ -12,7 +12,7 @@ permalink: /bangumi
 
 > + <a href="https://www.yhdmp.cc" target="_blank">https://www.yhdmp.cc</a>
 > + <a href="http://www.ntyou.cc" target="_blank">http://www.ntyou.cc</a>
-> + ps：如需删除，GitHub提issue
+> + ps：如需删除，GitHub提<a href="https://github.com/atgtahub/atgtahub.github.io/issues" target="_blank">issue</a>
 
 ## 剧场
 

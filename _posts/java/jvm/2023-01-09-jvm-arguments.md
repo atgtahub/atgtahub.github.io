@@ -10,11 +10,9 @@ tag: jvm
 {:toc}
 
 ## full script
-{% highlight shell linenos %}
 ```sh
 java -Xms2g -Xmx2g -Xmn1g -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m -XX:-OmitStackTraceInFastThrow -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/dumppath/java_heapdump.hprof -Xloggc:/logs/gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=100M -jar test.jar --spring.profiles.active=test --logging.level.org.springframework.r2dbc=INFO > /dev/null 2>&1 &
 ```
-{% endhighlight %}
 
 ## nacos script
 

@@ -110,5 +110,5 @@ GC文件滚动大小，需开启UseGCLogFileRotation，表示个文件上限大�
 参考原文
 -
 
-- <a href="https://blog.csdn.net/Augusdi/article/details/108628131">https://blog.csdn.net/Augusdi/article/details/108628131</a>
-- <a href="https://www.cnblogs.com/MistyRain-wp/p/16423838.html">https://www.cnblogs.com/MistyRain-wp/p/16423838.html</a>
+- <a href="https://blog.csdn.net/Augusdi/article/details/108628131" target="_blank">https://blog.csdn.net/Augusdi/article/details/108628131</a>
+- <a href="https://www.cnblogs.com/MistyRain-wp/p/16423838.html" target="_blank">https://www.cnblogs.com/MistyRain-wp/p/16423838.html</a>

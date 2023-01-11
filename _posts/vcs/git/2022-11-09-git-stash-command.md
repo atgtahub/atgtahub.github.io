@@ -45,14 +45,14 @@ git stash pop
 git stash pop 0
 ```
 
-### git stash clear
+## git stash clear
 
 清空暂存列表
 ```sh
 git stash clear
 ```
 
-### git stash drop {index}
+## git stash drop {index}
 
 删除暂存，指定要删除的内容下标
 ```sh
@@ -63,7 +63,7 @@ git stash drop 0
 git stash drop stash@{0}
 ```
 
-### git stash apply {index}
+## git stash apply {index}
 
 将缓存堆栈中的stash应用到工作目录中，不删除stash
 ```sh

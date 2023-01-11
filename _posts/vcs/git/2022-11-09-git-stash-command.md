@@ -40,7 +40,36 @@ git stash pop
 
 ### git stash pop {index}
 
-将当前stash中的内容弹出，并且指定要弹出的内容下标
+将当前stash中的内容恢复，并且指定要恢复的内容下标
 ```sh
 git stash pop 0
+```
+
+### git stash clear
+
+清空暂存列表
+```sh
+git stash clear
+```
+
+### git stash drop {index}
+
+删除暂存，指定要删除的内容下标
+```sh
+git stash drop 0
+```
+
+```sh
+git stash drop stash@{0}
+```
+
+### git stash apply {index}
+
+将缓存堆栈中的stash应用到工作目录中，不删除stash
+```sh
+git stash apply 0
+```
+
+```sh
+git stash apply stash@{0}
 ```

@@ -14,11 +14,11 @@ ECMAScript 6.0（简称ES6，ECMAScirpt是一种由 Ecma 国际(前身为欧洲�
 Association)通过 ECMA-262 标准化的脚本程序设计语言）是JavaScript语言的下一代标准，已经在2015年6月正式发布了，并且从ECMAScript6开始，开始采用年号来做版本，即ECMAScript
 2015，就是ECMAScript。它的目标，是使得JavaScript语言可以用来编写复杂的大型应用程序，成为企业级开发语言。每年一个新版本
 
-**ECMAScript是浏览器脚本语言的规范，JavaScript则是规范的具体实现**
+- **ECMAScript是浏览器脚本语言的规范，JavaScript则是规范的具体实现**
 
-### ES6新特性
+## ES6新特性
 
-#### let
+### let
 
  ```javascript
  // var声明的变量往往会越域
@@ -47,7 +47,7 @@ console.log(y); // ReferenceError: y is not defind
 let y = 20;
  ```
 
-#### const 声明常量（只读变量）
+### const 声明常量（只读变量）
 
  ```javascript
  // 1. 声明之后不允许改变
@@ -56,9 +56,9 @@ const a = 1;
 a = 3; // Uncaught TypeError: Assignment to constant variable.
  ```
 
-#### 解构表达式
+### 解构表达式
 
-##### 数组解构
+#### 数组解构
 
  ```javascript
  let arr = [1, 2, 3];
@@ -68,7 +68,7 @@ const [x, y, z] = arr; // x, y, z将与 arr 中的每个位置对应来取值
 console.log(x, y, z);
  ```
 
-##### 对象解构
+#### 对象解构
 
  ```javascript
  const person = {
@@ -95,9 +95,9 @@ console.log(age);
 console.log(language);
  ```
 
-#### 字符串扩展
+### 字符串扩展
 
-##### 几个新的API
+#### 几个新的API
 
 ES6 为字符串扩展了几个新的API
 
@@ -113,7 +113,7 @@ console.log(str.includes("e")); // true
 console.log(str.includes("hello")); // true
  ```
 
-##### 字符串模板
+#### 字符串模板
 
 模板字符串相当于加强版的字符串，用反引号 ` ，除了作为普通字符串，还可以用来定义多行字符串，还可以在字符串中加入变量和表达式
 
@@ -141,9 +141,9 @@ let sss = `O(∩_∩)O哈哈~，${fun()}`;
 console.log(sss); // O(∩_∩)O哈哈~，这是一个函数
  ```
 
-#### 函数优化
+### 函数优化
 
-##### 函数参数默认值
+#### 函数参数默认值
 
  ```javascript
  // 在 ES6 以前，我们无法给一个函数参数设置默认值，只能采用变通写法
@@ -165,7 +165,7 @@ function add2(a, b = 1) {
 console.log(add2(10));
  ```
 
-##### 不定参数
+### 不定参数
 
 不定参数用来表示不确定参数个数，形如，...变量名，由...加上一个具名参数标识符组成。具名参数只能放在参数列表的最后，并且有且只有一个不定参数
 
@@ -178,7 +178,7 @@ fun(1, 2) // 2
 fun(1, 2, 3, 4) // 4
  ```
 
-##### 箭头函数
+### 箭头函数
 
 ES6 中定义函数的简写方式
 
@@ -216,7 +216,7 @@ var sum3 = (a, b) => {
 console.log(sum3(10, 20));
  ```
 
-##### 箭头函数结合结构表达式
+#### 箭头函数结合解构表达式
 
  ```javascript
 // 需求，声明一个对象，hello 方法需要对象的个别属性
@@ -236,9 +236,9 @@ var hello2 = ({name}) => console.log("hello," + name);
 hello2(person)
  ```
 
-#### 对象优化
+### 对象优化
 
-##### 新增的API
+#### 新增的API
 
 ES6 给 Object 拓展了许多新的方法
 
@@ -266,7 +266,7 @@ Object.assign(target, source1, source);
 console.log(target) // { a: 1, b: 2, c: 3 }
  ```
 
-##### 声明对象简写
+#### 声明对象简写
 
  ```javascript
 const age = 23;
@@ -280,7 +280,7 @@ const person2 = {age, name}
 console.log(person2) // { age: 23, name: "张三" }
  ```
 
-##### 对象的函数属性简写
+#### 对象的函数属性简写
 
  ```javascript
 let person = {
@@ -301,7 +301,7 @@ person.eat2("banana");
 person.eat3("orange");
  ```
 
-##### 对象拓展运算符
+#### 对象拓展运算符
 
 拓展运算符 (...) 用于取出参数对象所有可遍历属性然后拷贝到当前对象
 
@@ -317,7 +317,7 @@ let person2 = {...age, ...name} // 如果两个对象的字段名重复，后面
 console.log(person2) // { age: 15, name: "Amy" }
  ```
 
-#### map和reduce
+### map和reduce
 
 数组中新增了map和reduce方法
 
@@ -348,7 +348,7 @@ let result = arr.reduce((a, b) => {
 console.log(result) // 38
 ```
 
-#### Promise
+### Promise
 
 Promise可以封装异步操作
 
@@ -416,9 +416,9 @@ get("*.json")
     })
 ```
 
-#### 模块化
+### 模块化
 
-##### 什么是模块化
+#### 什么是模块化
 
 模块化就是把代码进行拆分，方便重复利用。类似java中的导包：要使用一个包，必须先导包。而js中没有包的概念，换来的是模块
 

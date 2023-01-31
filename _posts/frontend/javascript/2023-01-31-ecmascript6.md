@@ -6,7 +6,7 @@ tag: es6
 ---
 
 * content
-  {:toc}
+{:toc}
 
 ## ES6
 

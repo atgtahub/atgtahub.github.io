@@ -25,7 +25,7 @@ tag: nodejs
 - 删除 Home 目录下的任意 node 和 node_modules 的文件或目录
 - 删除 /usr/local/bin 下的任意 node 的可执行文件
 
-```shell
+```sh
 # 这里是卸载npm的
 sudo npm uninstall npm -g
 
@@ -53,7 +53,7 @@ sudo rm /usr/local/lib/dtrace/node.d
 
 ### 查找遗留文件
 
-```shell
+```sh
 # 在/usr/local文件夹下查找以npm开头的文件
 find /usr/local -name 'npm*'
 # 在/usr/local文件夹下查找以node开头的文件
@@ -62,7 +62,7 @@ find /usr/local -name 'node*'
 
 ### 删除完成后测试命令
 
-```shell
+```sh
 npm -v  
 // 结果应该是 -bash: npm: command not found
 node -v
@@ -113,21 +113,33 @@ source ~/.bash_profile
 
 ## 使用nvm
 
+### 查看nodejs可用版本
+
+```sh
+nvm list available
+```
+
+### 查看当前nodejs版本
+
+```sh
+nvm current
+```
+
 ### 安装nodejs
 
-```shell
+```sh
 nvm install node版本号
 ```
 
 ### 查看已安装Node版本列表
 
-```shell
+```sh
 nvm list
 ```
 
 ### 切换node
 
-```shell
+```sh
 nvm use node版本号
 ```
 

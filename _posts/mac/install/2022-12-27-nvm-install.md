@@ -143,6 +143,12 @@ nvm list
 nvm use node版本号
 ```
 
+### 设置node默认版本
+
+```sh
+nvm alias default node版本号
+```
+
 ### 官方release
 
 - <a href="https://nodejs.org/en/download/releases/" target="_blank">https://nodejs.org/en/download/releases/</a>

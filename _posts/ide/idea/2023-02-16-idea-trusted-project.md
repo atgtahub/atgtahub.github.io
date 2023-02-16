@@ -16,11 +16,11 @@ C:\Users\用户名\AppData\Roaming\JetBrains\IntelliJIdea2021.3\options\trusted-
 ```
 
 
-### 修改文件
+## 修改文件
 
-找到对应的项目路径，将entry标签的value属性改为true，如果改项目上层目录未修改为信任，则先修改上层
+找到对应的项目路径，将entry标签的value属性改为true，如果该项目上层目录未修改为信任，则先修改上层
 
-#### 示例
+## 示例
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>

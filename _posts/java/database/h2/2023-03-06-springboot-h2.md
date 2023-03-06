@@ -99,7 +99,7 @@ spring:
 
 - 内存数据库：jdbc:h2:mem:databaseName
 - 文件数据库：jdbc:h2:file:filePath，例：jdbc:h2:file:./bin/h2/test
-- 远程数据库：jdbc:h2:tcp://{ip|hostname}:{port}/{Path}，例：jdbc:h2:tcp://localhost//usr/h2/data/rlib
+- 远程数据库：jdbc:h2:tcp://{ip\|hostname}:{port}/{Path}，例：jdbc:h2:tcp://localhost//usr/h2/data/rlib
 
 #### 连接参数
 
@@ -222,7 +222,7 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
 ```
 
 
-### 测试类`ApplicationTest`
+### 测试类`ApplicationTest.java`
 
 ```java
 import org.junit.jupiter.api.Test;

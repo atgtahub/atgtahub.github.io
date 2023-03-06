@@ -251,3 +251,8 @@ public class ApplicationTest {
 2023-03-06T15:43:19.848 +0800 DEBUG 11002 --- [           main] UserDao.selectList         [  137] : <==      Total: 3
 [User(id=1, username=123), User(id=2, username=456), User(id=3, username=789)]
 ```
+
+参考原文
+-
+
+- <a href="https://my.oschina.net/u/580298/blog/674606" target="_blank">H2 数据库连接 URL 说明</a>

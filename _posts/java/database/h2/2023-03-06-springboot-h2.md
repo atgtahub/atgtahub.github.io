@@ -130,7 +130,7 @@ spring:
 | [文本列默认不区分大小写](http://www.h2database.com/html/features.html#compatibility) | jdbc:h2:~/test；IGNORECAES=TRUE                              |
 
 
-### 启动类`Applicatio.java`
+### 启动类`Application.java`
 
 ```java
 @MapperScan("com.demo.dao")

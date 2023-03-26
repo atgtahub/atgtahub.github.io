@@ -37,6 +37,7 @@ permalink: /bangumi
 > + <a href="https://www.bilibili.com/bangumi/play/ss26870" target="_blank">此女子 甚可爱 不说话 只举牌</a>
 > + <a href="https://www.yhdmp.cc/showp/22182.html" target="_blank">夫妇以上、恋人未满</a>
 > + <a href="https://www.yhdmp.cc/showp/22438.html" target="_blank">秋叶原冥途战争</a>
+> + <a href="https://www.yhpdm.com/showp/18092.html" target="_blank">恋如雨止</a>
 
 #### todo
 

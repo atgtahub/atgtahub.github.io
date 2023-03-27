@@ -171,7 +171,7 @@ public class TestProgram {
         Map<Integer, List<Area>> groupingMap = list.stream().collect(Collectors.groupingBy(Area::getParentId));
         // 遍历根节点集合
         List<Area> treeList = groupingMap.get(rootId);
-        for (Area parent : list) {
+        for (Area parent : treeList) {
             recursiveWithGroupingBy(groupingMap, parent);
         }
 

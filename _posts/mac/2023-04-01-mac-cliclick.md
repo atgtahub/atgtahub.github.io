@@ -37,15 +37,16 @@ for i in {1..100};
 do cliclick c:100,100
 ```
 
-**参数说明：<a href="https://github.com/BlueM/cliclick#readme" target="_blank">具体参考文档</a>**
-- `c:`：执行左键单击
-- `rc:`：执行右键单击
-- `100,100`：鼠标箭头坐标
-
 3. 最后输入done
 ```sh
 done
 ```
+
+### 参数说明
+<a href="https://github.com/BlueM/cliclick#readme" target="_blank">具体参考文档</a>
+- `c:`：执行左键单击
+- `rc:`：执行右键单击
+- `100,100`：鼠标箭头坐标
 
 参考原文
 -

@@ -409,14 +409,14 @@ docker cp container:source_path output_path
 >
 > ```
 > FROM java:8
-> MAINTAINER itheima <itheima@itcast.cn>
+> MAINTAINER author <author@gmail.com>
 > ADD springboot-hello-0.0.1-SNAPSHOT.jar springboot.jar
 > CMD java -jar springboot.jar
 > ```
 >
 > 1. 定义父镜像：FROM java:8
 >
-> 2. 定义作者信息：MAINTAINER itheima @itcast.cn >@itcast.cn >
+> 2. 定义作者信息：MAINTAINER author @itcast.cn >@itcast.cn >
 >
 > 3. 将jar包添加到容器：ADD springboot.jar app.jar
 >
@@ -602,7 +602,7 @@ services:
 mkdir -p ./nginx/conf.d
 ```
 
-#### 在./nginx/conf.d目录下 编写itheima.conf文件
+#### 在./nginx/conf.d目录下 编写nginx.conf文件
 
 ```sh
 server {

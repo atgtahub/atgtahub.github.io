@@ -30,6 +30,7 @@ permalink: /bangumi
 
 > + <a href="https://www.yhpdm.com/showp/18092.html" target="_blank">恋如雨止</a>
 > + <a href="https://www.agemys.net/detail/20230076" target="_blank">邻人似银河</a>
+> + <a href="https://www.agemys.net/detail/20220087" target="_blank">总之就是非常可爱 第二季</a>
 
 ### 一月
 

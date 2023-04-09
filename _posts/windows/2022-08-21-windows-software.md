@@ -87,20 +87,20 @@ tag: software
 
 > + <a href="https://www.u.tools/" target="_blank">uTools</a>
 
-## 软件管理工具
+# 软件管理工具
 
-### chocolatey
+## chocolatey
 
 - 官网：<a href="https://chocolatey.org/install#individual" target="_blank">chocolatey</a>
 
-#### 安装脚本
+### 安装脚本
 
 以管理员身份打开dos窗口
 ```sh
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-#### 常用命令
+### 常用命令
 
 - choco search xxx，查找 xxx 安装包
 - choco info xxx，查看 xxx 安装包信息

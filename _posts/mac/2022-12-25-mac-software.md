@@ -56,14 +56,27 @@ tag: app
 ## 页面工具
 > + 取色器：<a href="https://apps.apple.com/cn/app/id1507890049" target="_blank">Pixeur</a>
 
-## 包管理工具
-> + <a href="https://brew.sh/index_zh-cn" target="_blank">brew</a>
->   + gitee: <a href="https://gitee.com/cunkai/HomebrewCN" target="_blank">https://gitee.com/cunkai/HomebrewCN</a>
->   + 优先选择中科大镜像源
->     ```sh
->     /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
->     ```
+## 软件管理工具
 
+### brew
+
+- 官网：<a href="https://brew.sh/index_zh-cn" target="_blank">https://brew.sh/index_zh-cn</a>
+- gitee（优先选择中科大镜像源）: <a href="https://gitee.com/cunkai/HomebrewCN" target="_blank">https://gitee.com/cunkai/HomebrewCN</a>
+
+#### 安装脚本
+```sh
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+
+#### 常用命令
+
+- brew ls 查看本地命令
+- brew search xxx 查找软件
+- brew -v 查看版本
+- brew update 更新版本
+- brew install --cask firefox 安装图形化界面软件
+- brew config 查看配置
+- brew info xxx 查看信息
 
 
 # 编辑器
@@ -95,4 +108,10 @@ tag: app
 # office
 
 > + <a href="https://www.wps.cn/product/wpsmac/" target="_blank">WPS</a>
+
+
+参考原文
+-
+
++ <a href="https://tobebetterjavaer.com/gongju/brew.html" target="_blank">https://tobebetterjavaer.com/gongju/brew.html</a>
 

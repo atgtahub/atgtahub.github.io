@@ -8,12 +8,6 @@ permalink: /bangumi
 {:toc}
 
 
-## 追番网站
-
-> + <a href="https://www.yhdmp.cc" target="_blank">https://www.yhdmp.cc</a>
-> + <a href="http://www.ntyou.cc" target="_blank">http://www.ntyou.cc</a>
-> + ps：如需删除，GitHub提<a href="https://github.com/atgtahub/atgtahub.github.io/issues" target="_blank">issue</a>
-
 ## 剧场
 
 + <a href="https://www.bilibili.com/bangumi/play/ss39136" target="_blank">言语如苏打般涌现</a>
@@ -32,19 +26,19 @@ permalink: /bangumi
 
 ## 2023
 
+### 四月
+
+> + <a href="https://www.yhpdm.com/showp/18092.html" target="_blank">恋如雨止</a>
+> + <a href="https://www.agemys.net/detail/20230076" target="_blank">邻人似银河</a>
+
 ### 一月
 
 > + <a href="https://www.bilibili.com/bangumi/play/ss26870" target="_blank">此女子 甚可爱 不说话 只举牌</a>
 > + <a href="https://www.yhdmp.cc/showp/22182.html" target="_blank">夫妇以上、恋人未满</a>
 > + <a href="https://www.yhdmp.cc/showp/22438.html" target="_blank">秋叶原冥途战争</a>
-> + <a href="https://www.yhpdm.com/showp/18092.html" target="_blank">恋如雨止</a>
-
-#### todo
-
 > + <a href="https://www.yhdmp.cc/showp/23087.html" target="_blank">智酱是女生</a>
 > + <a href="https://www.bilibili.com/bangumi/play/ep710543" target="_blank">虚构推理第二季</a>
 > + <a href="https://www.bilibili.com/bangumi/play/ss44151" target="_blank">因为太怕痛就全点防御力了第二季</a>
-> + <a href="https://www.yhdmp.cc/showp/22305.html" target="_blank">间谍教室</a>
 > + <a href="https://www.yhdmp.cc/showp/22225.html" target="_blank">关于邻家的天使大人不知不觉把我惯成了废人这档子事</a>
 > + <a href="https://www.yhdmp.cc/showp/22315.html" target="_blank">生而为狗 我很幸福</a>
 > + <a href="https://www.yhdmp.cc/showp/22215.html" target="_blank">傲娇反派大小姐莉泽洛特与直播的远藤君和解说员小林</a>

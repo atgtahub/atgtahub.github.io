@@ -33,6 +33,7 @@ permalink: /bangumi
 > + <a href="https://www.bilibili.com/bangumi/play/ep341244" target="_blank">总之就是非常可爱</a>
 > + <a href="https://www.agemys.net/detail/20220087" target="_blank">总之就是非常可爱 第二季</a>
 > + <a href="https://www.bilibili.com/bangumi/play/ep103870" target="_blank">月色真美</a>
+> + <a href="https://www.yhpdm.com/showp/19247.html" target="_blank">骚动时节的少女们啊</a>
 
 ### 一月
 

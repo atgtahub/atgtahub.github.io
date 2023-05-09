@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Linux学习（01基础篇）
+title:  Linux学习（01 基础篇）
 categories: linux
 tag: centos
 ---

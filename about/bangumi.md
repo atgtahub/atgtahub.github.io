@@ -26,6 +26,11 @@ permalink: /bangumi
 
 ## 2023
 
+
+### 五月
+
+> + <a href="https://www.agemys.vip/play/20150047" target="_blank">乱步奇谭</a>
+
 ### 四月
 
 > + <a href="https://www.yhpdm.com/showp/18092.html" target="_blank">恋如雨止</a>

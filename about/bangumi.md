@@ -30,6 +30,8 @@ permalink: /bangumi
 ### 五月
 
 > + <a href="https://www.agemys.vip/play/20150047" target="_blank">乱步奇谭</a>
+> + <a href="https://www.yhpdm.net/showp/23146.html" target="_blank">无神世界的神明活动</a>
+> + <a href="https://www.yhpdm.net/showp/23147.html" target="_blank">偶像大师 灰姑娘女孩 U149</a>
 
 ### 四月
 

@@ -1748,4 +1748,4 @@ rm -rf /var/etcd
 文档参考
 ---
 
-- <a href="https://www.yuque.com/cgxin/notes/kubernetes">https://www.yuque.com/cgxin/notes/kubernetes</a>
+- <a href="https://www.yuque.com/cgxin/notes/kubernetes" target="_blank">https://www.yuque.com/cgxin/notes/kubernetes</a>

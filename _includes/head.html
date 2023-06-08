@@ -6,7 +6,8 @@
 	{% if page.title != null && page.title != '' %}
 		<title>{{ page.title | append: ' - ' |append: site.name }}</title>
 	{% else %}
-		<title>‪</title>
+	    <title>💤</title>
+<!--		<title>‪</title>-->
 	{% endif %}
 
 	<link rel="shortcut icon" href="{{ '/styles/images/favicon.gif' | prepend: site.baseurl }}">
@@ -17,7 +18,7 @@
 	<link rel="stylesheet" href="{{ '/styles/css/syntax.css' | prepend: site.baseurl }}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | prepend: site.baseurl }}">
-	
+
 	<meta name="keywords" content="{{ page.title | append: ', ' | append: site.name | append: ', ' | append: site.meta_description}}">
 	<meta name="description" content="{{site.meta_description}}">
 
@@ -30,7 +31,7 @@
 		(function() {
 		  var hm = document.createElement("script");
 		  hm.src = "//hm.baidu.com/hm.js?{{ site.baidu_analysis }}";
-		  var s = document.getElementsByTagName("script")[0]; 
+		  var s = document.getElementsByTagName("script")[0];
 		  s.parentNode.insertBefore(hm, s);
 		})();
 	</script>

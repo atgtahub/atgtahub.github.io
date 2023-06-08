@@ -70,7 +70,7 @@ Kubernetes Cluster = N Master Node + N Worker Node
 
 #### 组件架构
 
-https://kubernetes.io/zh-cn/docs/concepts/overview/components/
+<a href="https://kubernetes.io/zh-cn/docs/concepts/overview/components/" target="_blank">https://kubernetes.io/zh-cn/docs/concepts/overview/components/</a>
 
 ![Kubernetes 的组件](https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg)
 
@@ -214,7 +214,7 @@ sudo sysctl --system
 
 #### 配置镜像地址
 
-镜像地址：https://developer.aliyun.com/mirror/kubernetes
+镜像地址：<a href="https://developer.aliyun.com/mirror/kubernetes" target="_blank">https://developer.aliyun.com/mirror/kubernetes</a>
 
 ```sh
 #配置k8s的yum源地址
@@ -456,7 +456,7 @@ kubernetes-dashboard   kubernetes-dashboard        NodePort    10.96.218.159   <
 
 #### 打开界面
 
-https://192.168.64.6:32702
+<a href="https://192.168.64.6:32702" target="_blank">https://192.168.64.6:32702</a>
 
 ```sh
 提示：Client sent an HTTP request to an HTTPS server.
@@ -880,7 +880,7 @@ kubectl rollout undo deployment/my-dep --to-revision=2
 
 除了Deployment，k8s 还有 `StatefulSet` 、`DaemonSet` 、`Job`  等 类型资源，我们都称为`工作负载`有状态应用使用`StatefulSet`  部署，无状态应用使用 `Deployment` 部署。无状态的 进容器，有状态的 物理部署（如Mysql、Redis等）
 
-官网文档：https://kubernetes.io/zh/docs/concepts/workloads/controllers/
+官网文档：<a href="https://kubernetes.io/zh/docs/concepts/workloads/controllers/" target="_blank">https://kubernetes.io/zh/docs/concepts/workloads/controllers/</a>
 
 - Deployment：无状态应用部署，比如微服务，提供多副本等功能
 - StatefulSet：有状态应用部署，比如redis，提供稳定的存储，网络等功能
@@ -981,7 +981,7 @@ spec:
 
 ### Ingress
 
-**Ingress**：Service 的统一网关入口，底层就是 nginx。（服务），官网地址：https://kubernetes.github.io/ingress-nginx/，所有的请求都先通过 Ingress，由 Ingress 来 打理这些请求。类似微服务中的 网关。
+**Ingress**：Service 的统一网关入口，底层就是 nginx。（服务），官网地址：<a href="https://kubernetes.github.io/ingress-nginx/" target="_blank">https://kubernetes.github.io/ingress-nginx/</a>，所有的请求都先通过 Ingress，由 Ingress 来 打理这些请求。类似微服务中的 网关。
 
 
 
@@ -1215,7 +1215,7 @@ spec:
 
 #### 限流
 
-官网文档：https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration
+官网文档：<a href="https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration" target="_blank">https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration</a>
 
 ```yaml
 apiVersion: networking.k8s.io/v1

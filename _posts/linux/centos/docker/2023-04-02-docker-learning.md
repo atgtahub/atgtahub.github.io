@@ -263,6 +263,52 @@ docker rmi `imageId`|`imageName`|`imageName:versionNum`
 docker rmi `docker images -q`
 ```
 
+#### 改变镜像
+
+```sh
+docker commit -a nobody conId imageName:versionNum
+```
+
+- -a：提交作者
+- -m：提交信息
+- -p：提交期间暂停容器（默认为true）
+
+#### 保存镜像
+
+```sh
+docker save -o xxx.tar imageName:versionNum
+```
+
+- -o：输出到文件
+
+#### 加载镜像
+
+```sh
+docker load -i xxx.tar
+```
+
+- -i：输入字符串从tar存档文件读取
+
+#### 镜像推送
+
+镜像打标签
+
+```sh
+docker tag imageName:versionNum dockerHubName/imageName:versionNum
+```
+
+登录dockerhub
+
+```sh
+docker login/logout
+```
+
+推送镜像
+
+```sh
+docker push dockerHubName/imageName:versionNum
+```
+
 ### 容器
 
 #### 查看现在正在运行的容器列表

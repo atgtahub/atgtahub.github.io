@@ -76,13 +76,11 @@ Kubernetes Cluster = N Master Node + N Worker Node
 
 
 
+## Kubernetes集群搭建
 
+### 安装Docker
 
-
-
-## 安装Docker
-
-### 卸载docker
+#### 卸载docker
 
 ```sh
 yum remove docker*
@@ -90,7 +88,7 @@ yum remove docker*
 
 
 
-### 安装 yum-utils
+#### 安装 yum-utils
 
 ```sh
 yum install -y yum-utils
@@ -98,7 +96,7 @@ yum install -y yum-utils
 
 
 
-### 存储库地址添加docker下载yum源
+#### 存储库地址添加docker下载yum源
 
 ```sh
 #aliyun
@@ -114,7 +112,7 @@ yum-config-manager \
 
 
 
-### 下载docker
+#### 下载docker
 
 ```sh
 yum install -y docker-ce docker-ce-cli containerd.io
@@ -122,7 +120,7 @@ yum install -y docker-ce docker-ce-cli containerd.io
 
 
 
-### 启动docker并设置为开机自启
+#### 启动docker并设置为开机自启
 
 ```sh
 systemctl enable docker --now
@@ -130,16 +128,11 @@ systemctl enable docker --now
 
 
 
-### 验证docker
+#### 验证docker
 
 ```sh
 docker info
 ```
-
-
-
-## Kubernetes集群搭建
-
 
 
 ### 设置hostname
@@ -1732,7 +1725,24 @@ kubectl get pod
 
 
 
+## 卸载Kubernetes
 
+```sh
+yum remove -y kubelet kubeadm kubectl
+ 
+kubeadm reset -f
+modprobe -r ipip
+lsmod
+rm -rf ~/.kube/
+rm -rf /etc/kubernetes/
+rm -rf /etc/systemd/system/kubelet.service.d
+rm -rf /etc/systemd/system/kubelet.service
+rm -rf /usr/bin/kube*
+rm -rf /etc/cni
+rm -rf /opt/cni
+rm -rf /var/lib/etcd
+rm -rf /var/etcd
+```
 
 
 

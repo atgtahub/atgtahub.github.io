@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  kubernetes
+title:  Kubernetes
 categories: linux
 tag: k8s
 ---

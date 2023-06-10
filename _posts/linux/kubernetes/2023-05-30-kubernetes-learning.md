@@ -259,15 +259,6 @@ docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/kube-proxy:v1.20
 docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.2
 docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/etcd:3.4.13-0
 docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/coredns:1.7.0
-
-
-#docker pull dyrnq/kube-apiserver
-#docker pull dyrnq/kube-proxy
-#docker pull dyrnq/kube-controller-manager
-#docker pull dyrnq/kube-scheduler
-#docker pull dyrnq/coredns
-#docker pull dyrnq/etcd
-#docker pull dyrnq/pause
 ```
 
 
@@ -339,7 +330,7 @@ echo "192.168.64.6  k8s-master" >> /etc/hosts
 kubeadm init \
 --apiserver-advertise-address=192.168.64.6 \
 --control-plane-endpoint=k8s-master \
---image-repository registry.aliyuncs.com/google_containers \
+--image-repository registry.cn-hangzhou.aliyuncs.com/google_containers \
 --kubernetes-version v1.20.9 \
 --service-cidr=10.96.0.0/16 \
 --pod-network-cidr=10.244.0.0/16

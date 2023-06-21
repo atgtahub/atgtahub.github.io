@@ -383,7 +383,7 @@ server {
 
 为了加快网站解析速度，可以将动态资源交给后端服务器，纯前端的静态页面放在系统目录下，交给Nginx来解析。
 
-![1]({{ 'assets/posts/linux/nginx/2023-06-21-nginx-application-scenario/Snipaste_2023-06-21_17-12-50.png' | prepend: site.baseurl }})
+![1]({{ '/assets/posts/linux/nginx/2023-06-21-nginx-application-scenario/Snipaste_2023-06-21_17-12-50.png' | prepend: site.baseurl }})
 
 ```nginx
 server {
@@ -403,7 +403,7 @@ server {
 
 反向代理是用户客户端访问代理服务器后，被反向代理服务器按照一定的规则从一个或多个被代理服务器中获取响应资源并返回给客户端的代理模式，客户端只知道代理服务器的 IP，并不知道后端服务器的 IP，原因是代理服务器隐藏了被代理服务器的信息。
 
-![2]({{ 'assets/posts/linux/nginx/2023-06-21-nginx-application-scenario/Snipaste_2023-06-21_17-16-25.png' | prepend: site.baseurl }})
+![2]({{ '/assets/posts/linux/nginx/2023-06-21-nginx-application-scenario/Snipaste_2023-06-21_17-16-25.png' | prepend: site.baseurl }})
 
 #### 七层反向代理
 
@@ -442,11 +442,11 @@ stream {
 
 当出现高并发大流量的业务场景时，单台后端服务器已无法支撑业务正常运行，需要将请求流量按照一定规则分发到多台服务节点上，即使某个节点宕机，系统依然能够对外正常提供服务，以此来提高系统的性能和稳定性。
 
-![3]({{ 'assets/posts/linux/nginx/2023-06-21-nginx-application-scenario/Snipaste_2023-06-21_17-18-17.png' | prepend: site.baseurl }})
+![3]({{ '/assets/posts/linux/nginx/2023-06-21-nginx-application-scenario/Snipaste_2023-06-21_17-18-17.png' | prepend: site.baseurl }})
 
 支持协议图
 
-![4]({{ 'assets/posts/linux/nginx/2023-06-21-nginx-application-scenario/Snipaste_2023-06-21_17-18-39.png' | prepend: site.baseurl }})
+![4]({{ '/assets/posts/linux/nginx/2023-06-21-nginx-application-scenario/Snipaste_2023-06-21_17-18-39.png' | prepend: site.baseurl }})
 
 #### upstream模块
 
@@ -684,7 +684,7 @@ server {
 
 #### 效果
 
-![5]({{ 'assets/posts/linux/nginx/2023-06-21-nginx-application-scenario/Snipaste_2023-06-21_17-32-51.png' | prepend: site.baseurl }})
+![5]({{ '/assets/posts/linux/nginx/2023-06-21-nginx-application-scenario/Snipaste_2023-06-21_17-32-51.png' | prepend: site.baseurl }})
 
 #### 配置
 

@@ -432,6 +432,55 @@ init level_number
 
 
 
+### 开放和关闭端口
+
+#### 查看端口占用
+
+```sh
+netstat -tunlp | grep 80
+lsof -i:80
+```
+
+
+
+#### 开放指定端口
+
+```sh
+firewall-cmd --zone=public --add-port=80/tcp --permanent
+```
+
+- --zone：作用域
+- --add-port=80/tcp：添加端口，格式为：端口/通讯协议
+- --permanent：永久生效，没有此参数重启后失效
+
+
+
+#### 重启防火墙
+
+```sh
+firewall-cmd --reload
+```
+
+
+
+#### 查询端口是否开启
+
+```sh
+firewall-cmd --query-port=80/tcp
+```
+
+
+
+#### 移除端口
+
+```sh
+firewall-cmd --permanent --remove-port=80/tcp
+```
+
+
+
+
+
 ### 关机重启命令
 
 在linux领域内大多用在服务去上，很少遇到关机的操作。毕竟服务去上跑一个服务是永无止境的，除非特殊情况下，不得已才会关机。
@@ -2031,6 +2080,13 @@ KiB Swap:  4132860 total,  4131564 free,     1296 used.   932112 avail Mem
 
 #### netstat显示网络状态和端口占用信息
 
+##### 安装
+
+```sh
+yum search netstat
+yum -y install net-tools
+```
+
 ##### 基本语法
 
 ```sh
@@ -2049,6 +2105,8 @@ netstat -nlp | grep 端口号（功能描述：查看网络端口号占用情况
 | -n   | 拒绝显示别名，能显示数字的全部转化成数字             |
 | -l   | 仅列出在监听的服务状态                               |
 | -p   | 表示显示哪个进程在调用                               |
+| -t   | 显示tcp相关选项                                      |
+| -u   | 显示udp相关选项                                      |
 
 ##### 案例实操
 
@@ -2225,6 +2283,7 @@ rpm -ivh RPM包全名
 | -v       | --verbose，显示详细信息 |
 | -h       | --hash，进度条          |
 | --nodeps | 安装前不检查依赖        |
+| --force  | 强制安装                |
 
 
 

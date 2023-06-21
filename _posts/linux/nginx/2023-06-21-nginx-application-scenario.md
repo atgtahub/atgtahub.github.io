@@ -35,7 +35,7 @@ Nginx（发音同“engine x”）是一个高性能的反向代理和 Web 服�
 
 ### Windows安装
 
-- 下载官方稳定版`.zip`文件：https://nginx.org/en/download.html
+- 下载官方稳定版`.zip`文件：<a href="https://nginx.org/en/download.html" target="_blank">https://nginx.org/en/download.html</a>
 
 - 解压到本地，直接运行`nginx.exe`即可
 
@@ -45,7 +45,7 @@ Nginx（发音同“engine x”）是一个高性能的反向代理和 Web 服�
 
 #### rpm包安装
 
-下载地址：http://nginx.org/packages/rhel/7/，选择合适自己系统架构的rpm包，文件名一般为`nginx-1.24.0-1.el7.ngx.x86_64.rpm`
+下载地址：<a href="http://nginx.org/packages/rhel/7/" target="_blank">http://nginx.org/packages/rhel/7/</a>，选择合适自己系统架构的rpm包，文件名一般为`nginx-1.24.0-1.el7.ngx.x86_64.rpm`
 
 ```sh
 rpm -ivh --force --nodeps http://nginx.org/packages/rhel/7/aarch64/RPMS/nginx-1.24.0-1.el7.ngx.aarch64.rpm
@@ -66,7 +66,7 @@ nginx: error while loading shared libraries: libpcre2-8.so.0: cannot open shared
 
 ##### 安装对应依赖
 
-https://pkgs.org/download/libpcre2-8.so.0%28%29%2864bit%29
+<a href="https://pkgs.org/download/libpcre2-8.so.0%28%29%2864bit%29" target="_blank">https://pkgs.org/download/libpcre2-8.so.0%28%29%2864bit%29</a>
 
 ```sh
 # 选择对应系统架构的版本
@@ -245,7 +245,7 @@ yum remove nginx*
 
 #### brew
 
-<a href="https://gtahub.cn/2022/12/25/mac-software/" target="_blank">brew安装</a>
+<a href="https://gtahub.cn/2022/12/25/mac-software/#brew" target="_blank">brew安装</a>
 
 ```sh
 # 搜索nginx
@@ -309,7 +309,7 @@ build-error: 0 (30 days)
 
 #### 物理安装
 
-- 下载地址：https://nginx.org/en/download.html
+- 下载地址：<a href="https://nginx.org/en/download.html" target="_blank">https://nginx.org/en/download.html</a>
 - 下载`Stable version`的tar.gz
 
 ##### 解压到指定路径

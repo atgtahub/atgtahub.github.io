@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  java将集合组成树结构
+title:  Java将集合组成树结构
 categories: java
 tag: stream
 ---

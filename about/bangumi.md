@@ -27,6 +27,12 @@ permalink: /bangumi
 ## 2023
 
 
+
+### 七月
+
+> + <a href="https://www.agedm.tv/detail/20230118" target="_blank">租借女友 第三季</a>
+
+
 ### 五月
 
 > + <a href="https://www.agemys.vip/play/20150047" target="_blank">乱步奇谭</a>

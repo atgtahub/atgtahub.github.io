@@ -40,7 +40,7 @@ Python 的设计具有很强的可读性，相比其他语言经常使用英文�
 
 ## Python下载
 
-下载地址：https://www.python.org/downloads/
+下载地址：<a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a>
 
 ```sh
 # 查看python3版本
@@ -50,7 +50,7 @@ Python 3.8.9
 
 ### PyCharm下载
 
-下载地址：https://www.jetbrains.com/pycharm/download/
+下载地址：<a href="https://www.jetbrains.com/pycharm/download/" target="_blank">https://www.jetbrains.com/pycharm/download/</a>
 
 
 

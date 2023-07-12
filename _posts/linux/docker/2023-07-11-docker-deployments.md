@@ -12,7 +12,7 @@ tag: docker
 
 ## Docker Hub
 
-https://hub.docker.com/
+<a href="https://hub.docker.com/" target="_blank">https://hub.docker.com/</a>
 
 
 

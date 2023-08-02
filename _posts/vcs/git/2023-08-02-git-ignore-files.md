@@ -11,7 +11,7 @@ tag: git
 
 ## 各种语言`gitignore`文件模版
 
-- <a href="https://github.com/github/gitignore">https://github.com/github/gitignore</a>
+- <a href="https://github.com/github/gitignore" target="_blank">https://github.com/github/gitignore</a>
 
 ## python
 

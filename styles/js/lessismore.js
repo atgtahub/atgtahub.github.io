@@ -45,10 +45,10 @@ var fixBrace = function () {
 	var list = document.querySelectorAll('code');
 	list.forEach(function(item){
 		if (item.innerHTML.indexOf('\\{\\{') >= 0) {
-			item.innerHTML = item.innerHTML.replace(/\\{\\{/g,'{ {');
+			item.innerHTML = item.innerHTML.replace(/\\{\\{/g,'{{');
 		}
 		if (item.innerHTML.indexOf('\\}\\}') >= 0) {
-			item.innerHTML = item.innerHTML.replace(/\\}\\}/g,'} }');
+			item.innerHTML = item.innerHTML.replace(/\\}\\}/g,'}}');
 		}
 		if (item.innerHTML.indexOf('\\{\\%') >= 0) {
 			item.innerHTML = item.innerHTML.replace(/\\{\\%/g,'\{\%');

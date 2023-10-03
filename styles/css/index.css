@@ -6128,9 +6128,6 @@ a:focus {
   color: #9400D3;
   text-decoration: underline;
 }
-a::selection {
-  background: #9400D3;
-}
 a:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;

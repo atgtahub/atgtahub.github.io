@@ -17,7 +17,8 @@ tag: software
 > + <a href="https://maven.apache.org/download.cgi" target="_blank">maven</a>
 > + <a href="https://nodejs.org/en/download/" target="_blank">nodejs</a>
 > + <a href="https://git-scm.com/downloads" target="_blank">git</a>
-> + <a href="http://www.kpdus.com/jad.html#download" target="_blank">jad(反编译)</a><ul><li>常用命令jad -r -sjava -dtempDir compileDir\\**\\\*.class</li></ul>
+> + <a href="http://www.kpdus.com/jad.html#download" target="_blank">jad(反编译)</a>
+>   + 常用命令: jad -r -sjava -dtempDir compileDir\\**\\\*.class
 
 ## 开发工具
 > + <a href="https://www.jetbrains.com.cn/idea/" target="_blank">idea</a>

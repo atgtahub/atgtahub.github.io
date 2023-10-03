@@ -23,7 +23,6 @@ tag: app
 > + <a href="https://www.jetbrains.com.cn/idea/download/#section=mac" target="_blank">idea</a>
 > + <a href="https://www.jetbrains.com.cn/go/download/#section=mac" target="_blank">goland</a>
 > + <a href="https://www.jetbrains.com.cn/pycharm/download/#section=mac" target="_blank">pycharm</a>
-> + <a href="https://www.jetbrains.com.cn/fleet/download/#section=mac" target="_blank">fleet</a>
 > + <a href="https://code.visualstudio.com/Download" target="_blank">Visual Studio Code</a>
 
 ## 数据库
@@ -39,7 +38,10 @@ tag: app
 > + <a href="https://github.com/RedisInsight/RedisDesktopManager/releases" target="_blank">Redis Desktop Manager</a>
 >
 > ### ssh&ftp
-> + <a href="https://www.royalapps.com/ts/mac/download" target="_blank">Royal TSX</a>
+> + <a href="https://www.royalapps.com/ts/mac/download" target="_blank">~~Royal TSX~~</a>
+>
+> ### ssh
+> + <a href="https://iterm2.com/index.html" target="_blank">iterm2</a>
 > 
 > ### docker
 > + <a href="https://www.docker.com/products/docker-desktop/" target="_blank">docker desktop</a>
@@ -109,6 +111,14 @@ tag: app
 
 > + <a href="https://www.wps.cn/product/wpsmac/" target="_blank">WPS</a>
 
+
+# 视频播放器
+
+> + <a href="https://www.iina.io/" target="_blank">IINA</a>
+
+# 清理屏幕
+
+> + <a href="https://apps.apple.com/cn/app/cleaner-%E6%B8%85%E7%90%86%E6%B8%85%E6%B4%81%E5%B1%8F%E5%B9%95%E9%94%AE%E7%9B%98/id1597938160" target="_blank">Cleaner</a>
 
 参考原文
 -

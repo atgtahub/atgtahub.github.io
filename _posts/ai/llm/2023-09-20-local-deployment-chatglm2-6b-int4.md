@@ -12,22 +12,22 @@ tag: llm
 
 #### Python
 
-- https://www.python.org/downloads/
+- <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>
 - 下载对应的系统和架构
 
 #### PyCharm
 
-- https://www.jetbrains.com.cn/pycharm/download/
+- <a href="https://www.jetbrains.com.cn/pycharm/download/">https://www.jetbrains.com.cn/pycharm/download/</a>
 
 #### CUDA
 
 - CUDA（Compute Unified Device Architecture），是显卡厂商[NVIDIA](https://baike.baidu.com/item/NVIDIA/325313?fromModule=lemma_inlink)推出的运算平台。 CUDA™是一种由NVIDIA推出的通用[并行计算](https://baike.baidu.com/item/并行计算/113443?fromModule=lemma_inlink)架构，该架构使[GPU](https://baike.baidu.com/item/GPU?fromModule=lemma_inlink)能够解决复杂的计算问题。 它包含了CUDA[指令集架构](https://baike.baidu.com/item/指令集架构/7029547?fromModule=lemma_inlink)（ISA）以及GPU内部的并行计算引擎。 开发人员可以使用[C语言](https://baike.baidu.com/item/C语言?fromModule=lemma_inlink)来为CUDA™架构编写程序，所编写出的程序可以在支持CUDA™的处理器上以超高性能运行。CUDA3.0已经开始支持C++和[FORTRAN](https://baike.baidu.com/item/FORTRAN/674319?fromModule=lemma_inlink)。
 
-- https://developer.nvidia.com/cuda-downloads
+- <a href="https://developer.nvidia.com/cuda-downloads">https://developer.nvidia.com/cuda-downloads</a>
 
-- https://developer.nvidia.com/cuda-toolkit-archive
+- <a href="https://developer.nvidia.com/cuda-toolkit-archive">https://developer.nvidia.com/cuda-toolkit-archive</a>
 
-- 安装步骤：https://blog.csdn.net/qq_44111805/article/details/128281503
+- 安装步骤：<a href="https://blog.csdn.net/qq_44111805/article/details/128281503">https://blog.csdn.net/qq_44111805/article/details/128281503</a>
 
 测试安装成功
 
@@ -53,7 +53,7 @@ taskkill /pid PID /f
 - Conda 是一个开源的软件包管理系统和环境管理系统，用于安装多个版本的软件包及其依赖关系，并在它们之间轻松切换
 - Anaconda是一个开源的Python发行版本，其包含了conda、Python等软件包，numpy，pandas（数据分析），scipy等科学计算包，无需再单独下载配置。
 
-- https://www.anaconda.com/download
+- <a href="https://www.anaconda.com/download">https://www.anaconda.com/download</a>
 
 #### ChatGLM
 
@@ -64,7 +64,7 @@ taskkill /pid PID /f
   3. **更高效的推理**：基于 [Multi-Query Attention](http://arxiv.org/abs/1911.02150) 技术，ChatGLM2-6B 有更高效的推理速度和更低的显存占用：在官方的模型实现下，推理速度相比初代提升了 42%，INT4 量化下，6G 显存支持的对话长度由 1K 提升到了 8K。
   4. **更开放的协议**：ChatGLM2-6B 权重对学术研究**完全开放**，在填写[问卷](https://open.bigmodel.cn/mla/form)进行登记后**亦允许免费商业使用**。
 
-- 清华源：https://cloud.tsinghua.edu.cn/d/674208019e314311ab5c/?p=%2F&mode=list
+- 清华源：<a href="https://cloud.tsinghua.edu.cn/d/674208019e314311ab5c/?p=%2F&mode=list">https://cloud.tsinghua.edu.cn/d/674208019e314311ab5c/?p=%2F&mode=list</a>
 
 - 或通过huggingface拉取：git lfs install
   git clone https://huggingface.co/THUDM/chatglm2-6b-int4
@@ -73,7 +73,10 @@ taskkill /pid PID /f
 
 ### 拉取代码
 
-https://github.com/THUDM/ChatGLM2-6B.git
+```sh
+git clone https://github.com/THUDM/ChatGLM2-6B.git
+```
+
 
 
 
@@ -84,7 +87,7 @@ https://github.com/THUDM/ChatGLM2-6B.git
 - 新建完成后切换到该环境
 - 点击Home，启动PyCharm
 - 安装依赖：`pip install -r requirements.txt`
-- 安装pytorch：https://pytorch.org/get-started/locally/
+- 安装pytorch： <a href="https://pytorch.org/get-started/locally/">https://pytorch.org/get-started/locally/</a>
 
 
 
@@ -190,16 +193,15 @@ streamlit run web_demo2.py
 
 - ModuleNotFoundError: No module named 'streamlit.cli'：找到本地anaconda3\envs\chatglm\Scripts路径下的streamlit-script.py
     - 修改代码：streamlit.cli替换为streamlit.web.cli
-    ```python
-    # -*- coding: utf-8 -*-
-    import re
-    import sys
-
-    # from streamlit.cli import main
-    from streamlit.web.cli import main
-
-    if __name__ == '__main__':
-        sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-        sys.exit(main())
-
-    ```
+       ```python
+       # -*- coding: utf-8 -*-
+       import re
+       import sys
+   
+       # from streamlit.cli import main
+       from streamlit.web.cli import main
+   
+       if __name__ == '__main__':
+           sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+           sys.exit(main())
+       ```

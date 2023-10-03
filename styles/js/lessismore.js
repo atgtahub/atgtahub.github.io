@@ -40,7 +40,9 @@
 
 }(jQuery)
 
-
+/**
+ * 修复"{{  }}" 不渲染问题
+ */
 var fixBrace = function () {
 	var list = document.querySelectorAll('code');
 	list.forEach(function(item){
@@ -59,3 +61,8 @@ var fixBrace = function () {
 	});
 };
 fixBrace();
+
+document.querySelectorAll('a[href^="http"], a[href^="https"]').forEach(element => {
+	element.target = '_blank';
+});
+

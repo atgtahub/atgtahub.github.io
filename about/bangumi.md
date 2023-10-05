@@ -27,6 +27,11 @@ permalink: /bangumi
 ## 2023
 
 
+### 十月
+
+> + <a href="https://www.agemys.org/detail/20230212" target="_blank">女友成双 第二季</a>
+> + <a href="https://www.agemys.org/detail/20230232" target="_blank">超超超超喜欢你的100个女孩子</a>
+
 
 ### 七月
 

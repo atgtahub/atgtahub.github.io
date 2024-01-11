@@ -31,8 +31,8 @@ permalink: /bangumi
 
 > + <a href="https://www.agemys.org/detail/20230212" target="_blank">女友成双 第二季</a>
 > + <a href="https://www.agemys.org/detail/20230232" target="_blank">超超超超喜欢你的100个女孩子</a>
-> + <a href="https://www.agemys.org/detail/20210061" target="_blank">86-不存在的地域-</a>
-> + <a href="https://www.agemys.org/detail/20210249" target="_blank">86-不存在的地域- 第二季</a>
+> + <a href="https://www.agemys.org/detail/20210061" target="_blank">86-不存在的战区-</a>
+> + <a href="https://www.agemys.org/detail/20210249" target="_blank">86-不存在的战区- 第二季</a>
 
 
 ### 七月

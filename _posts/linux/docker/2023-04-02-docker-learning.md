@@ -263,7 +263,7 @@ docker rmi `imageId`|`imageName`|`imageName:versionNum`
 docker rmi `docker images -q`
 ```
 
-#### 改变镜像
+#### 从容器创建一个新的镜像
 
 ```sh
 docker commit -a nobody conId imageName:versionNum

@@ -120,6 +120,10 @@ tag: app
 
 > + <a href="https://apps.apple.com/cn/app/cleaner-%E6%B8%85%E7%90%86%E6%B8%85%E6%B4%81%E5%B1%8F%E5%B9%95%E9%94%AE%E7%9B%98/id1597938160" target="_blank">Cleaner</a>
 
+# 按键显示
+
+> + <a href="https://github.com/keycastr/keycastr.git">KeyCastr</a>
+
 参考原文
 -
 

@@ -208,3 +208,90 @@ docker run -id \
   -v $(pwd)/volume/log:/app/log \
   whoami/python-selenium
 ```
+
+## 模拟元素点击
+
+`browser.py`
+
+```python
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
+
+
+class BrowserContext:
+    def __init__(self, download_dir):
+        self.browser = None
+        self.download_dir = download_dir
+        self.__init_browser()
+
+    def __init_browser(self):
+        options = webdriver.ChromeOptions()
+        chrome_driver_options_experimental = {
+            "download.default_directory": self.download_dir,
+            "download.prompt_for_download": False,
+            "download.directory_upgrade": True,
+            "safebrowsing.enabled": True
+        }
+        options.add_experimental_option('prefs', chrome_driver_options_experimental)
+
+        arguments = ["--headless", "--no-sandbox", "--disable-dev-shm-usage",
+                                                 "--disable-extensions", "--disable-gpu", "--window-size=1920x1080"]
+        for argument in arguments:
+            options.add_argument(argument)
+
+        service = ChromeService(ChromeDriverManager().install())
+        self.browser = webdriver.Chrome(service=service, options=options)
+
+        return self.browser
+
+    def set_download_dir(self, download_dir):
+        self.download_dir = download_dir
+        self.browser.command_executor._commands["send_command"] = ("POST", '/session/$sessionId/chromium/send_command')
+        params = {'cmd': 'Page.setDownloadBehavior', 'params': {'behavior': 'allow', 'downloadPath': download_dir}}
+        self.browser.execute("send_command", params)
+
+    def __enter__(self):
+        return self.browser
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if self.browser:
+            self.browser.quit()
+```
+
+`util.py`
+
+```python
+from loguru import logger
+from selenium.common import StaleElementReferenceException, ElementNotInteractableException, \
+    ElementClickInterceptedException
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as ExpectedConditions
+from selenium.webdriver.support.wait import WebDriverWait
+
+from browser import BrowserContext
+
+def event_listeners(url: str, temp_dir: str):
+    with BrowserContext(temp_dir) as browser:
+        browser.get(url)
+
+        wait = WebDriverWait(browser, 60)
+        elements = wait.until(
+            ExpectedConditions.presence_of_all_elements_located(
+                (By.XPATH, "//div | //a | //button | //input[@type='button']")))
+        if not elements:
+            return None
+
+        for element in elements:
+            try:
+                if element.is_displayed():
+                    # 点击之前将鼠标移动到目标元素上，绕过其他元素的遮盖
+                    ActionChains(browser).move_to_element(element).click().perform()
+            except StaleElementReferenceException as e:
+                logger.debug(f"元素已经不再有效")
+                continue
+            except (ElementNotInteractableException, ElementClickInterceptedException) as e:
+                logger.debug(f"无法点击此元素")
+                continue
+```

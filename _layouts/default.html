@@ -2,13 +2,21 @@
 <html>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        let date = new Date();
-        let isQingming = (date.getMonth() === 3 && date.getDate() >= 4 && date.getDate() <= 6);
-        console.log(date)
+      let date = new Date();
+      let isQingming = (date.getMonth() === 3 && date.getDate() >= 4 && date.getDate() <= 6);
+      let year = today.getFullYear();
+      let month = String(today.getMonth() + 1).padStart(2, '0');
+      let day = String(today.getDate()).padStart(2, '0');
+      let hours = String(today.getHours()).padStart(2, '0');
+      let minutes = String(today.getMinutes()).padStart(2, '0');
+      let seconds = String(today.getSeconds()).padStart(2, '0');
 
-        if (isQingming) {
-            document.documentElement.classList.add("filter-gray");
-        }
+      let formattedDate = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+      console.log(formattedDate)
+
+      if (isQingming) {
+        document.documentElement.classList.add("filter-gray");
+      }
     });
 </script>
 

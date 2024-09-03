@@ -80,52 +80,54 @@ tag: app
 - brew config 查看配置
 - brew info xxx 查看信息
 
+# 软件
 
-# 编辑器
+## 富文本编辑器
 
-## 富文本
 > + <a href="https://typora.io/#download" target="_blank">typora</a>
 
 
-# 截图
+## 截图
 
 > + <a href="https://zh.snipaste.com/" target="_blank">snipaste</a>
+> + <a href="https://cleanshot.com/" target="_blank">cleanshot</a>
 
 
-# 解压缩
+## 解压缩
 
 > + <a href="https://apps.apple.com/cn/app/id1565629813" target="_blank">FastZip</a>
 
 
-# 远程桌面
+## 远程桌面
 
 > + <a href="https://sunlogin.oray.com/download?categ=personal" target="_blank">向日葵</a>
+> + <a href="https://www.todesk.com/" target="_blank">todesk</a>
 
 
-# 菜单
+## 菜单
 
 > + <a href="https://bjango.com/mac/istatmenus/" target="_blank">iStat Menus</a>
+> + <a href="https://www.macbartender.com/Bartender5/" target="_blank">Bartender5</a>
 
 
-# office
+## office
 
 > + <a href="https://www.wps.cn/product/wpsmac/" target="_blank">WPS</a>
 
 
-# 视频播放器
+## 视频播放器
 
 > + <a href="https://www.iina.io/" target="_blank">IINA</a>
 
-# 清理屏幕
+## 清理屏幕
 
 > + <a href="https://apps.apple.com/cn/app/cleaner-%E6%B8%85%E7%90%86%E6%B8%85%E6%B4%81%E5%B1%8F%E5%B9%95%E9%94%AE%E7%9B%98/id1597938160" target="_blank">Cleaner</a>
 
-# 按键显示
+## 按键显示
 
 > + <a href="https://github.com/keycastr/keycastr.git">KeyCastr</a>
 
-参考原文
--
+## 电池
 
-+ <a href="https://tobebetterjavaer.com/gongju/brew.html" target="_blank">https://tobebetterjavaer.com/gongju/brew.html</a>
+> + <a href="https://apphousekitchen.com/">AlDente</a>
 

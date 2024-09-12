@@ -42,6 +42,38 @@ tag: centos
 - 官网地址：[http://www.centos.org](http://www.centos.org/)
 - aliyun镜像：[http://mirrors.aliyun.com/centos](http://mirrors.aliyun.com/centos/)
 
+### 查看Linux版本
+
+#### 查看 Linux 发行版版本信息
+
+```sh
+cat /etc/os-release
+```
+
+#### 如果系统支持 lsb_release，可以使用该命令来查看详细的发行版信息
+
+```sh
+lsb_release -a
+```
+
+#### 查看 Linux 内核版本
+
+```sh
+uname -r
+```
+
+#### 在 CentOS 系统上，可以使用该命令查看具体的 CentOS 版本。
+
+```sh
+cat /etc/centos-release
+```
+
+#### 对于 RHEL 或基于 RHEL 的发行版，可以使用这个命令查看版本信息。
+
+```sh
+cat /etc/redhat-release
+```
+
 ## Linux文件与目录结构
 
 ### Linux文件

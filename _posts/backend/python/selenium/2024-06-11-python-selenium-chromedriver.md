@@ -32,6 +32,12 @@ yum install -y glibc.x86_64 libXcomposite.x86_64 \
       libXrandr.x86_64 libXScrnSaver.x86_64 libXrandr.x86_64 \
       alsa-lib.x86_64 pango.x86_64 atk.x86_64 libXss.x86_64 libXft.x86_64 libXinerama.x86_64
 
+# arm架构
+yum install -y glibc.aarch64 libXcomposite.aarch64 \
+      libXcursor.aarch64 libXi.aarch64 libXtst.aarch64 \
+      libXrandr.aarch64 libXScrnSaver.aarch64 alsa-lib.aarch64 \
+      pango.aarch64 atk.aarch64 libXss.aarch64 libXft.aarch64 libXinerama.aarch64
+
 # 安装chromedriver
 # 下载对应版本的驱动: https://registry.npmmirror.com/binary.html?path=chromedriver/
 wget https://registry.npmmirror.com/-/binary/chromedriver/114.0.5735.90/chromedriver_linux64.zip
@@ -44,16 +50,19 @@ sudo chmod +x /usr/local/bin/chromedriver
 chromedriver
 ```
 
-### 安装python
+### 安装依赖
 
 ```sh
-# 安装依赖
-yum -y groupinstall “Development tools”
+yum install -y gcc make
+yum -y groupinstall "Development Tools"
 yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
 yum install -y libffi-devel zlib1g-dev
 yum install zlib* -y
+```
 
-# 安装openssl
+### 安装openssl
+
+```sh
 wget https://www.openssl.org/source/openssl-1.1.1n.tar.gz --no-check-certificate
 tar -zxvf openssl-1.1.1n.tar.gz
 cd openssl-1.1.1n
@@ -61,6 +70,24 @@ cd openssl-1.1.1n
 # 编译并安装
 make -j && make install
 
+# 更新 LD_LIBRARY_PATH 环境变量
+echo "export LD_LIBRARY_PATH=/usr/local/openssl/lib" >> ~/.bash_profile
+source ~/.bash_profile
+
+# 将 OpenSSL 的库路径添加到系统的动态链接器配置中，使其永久生效
+echo "/usr/local/openssl/lib" >> /etc/ld.so.conf.d/openssl.conf
+ldconfig
+
+# 重新检查 OpenSSL 安装： 确保 OpenSSL 的库文件在指定的目录中存在。看到类似 libssl.so.1.1 和 libcrypto.so.1.1 的文件
+ls /usr/local/openssl/lib/
+
+# 验证：OpenSSL 1.1.1n  15 Mar 2022
+/usr/local/openssl/bin/openssl version
+```
+
+### 安装python
+
+```sh
 # 安装python
 wget https://www.python.org/ftp/python/3.10.4/Python-3.10.4.tgz
 tar -xvzf Python-3.10.4.tgz
@@ -68,6 +95,12 @@ cd Python-3.10.4/
 ./configure --prefix=/usr/local/python3 --with-openssl=/usr/local/openssl --with-openssl-rpath=auto
 # 编译并安装
 make -j && make install
+
+# 添加python3的软链接
+ln -s /usr/local/python3/bin/python3.10 /usr/bin/python3
+ 
+# 查看版本
+python3 -V
 ```
 
 ### 项目启动
@@ -116,7 +149,15 @@ else
     fi
 fi
 
+if [ ! -d "venv" ]; then
+    echo "创建虚拟环境..."
+    python3 -m venv "venv"
+fi
+
+echo "激活虚拟环境..."
 source venv/bin/activate
+pip install --upgrade pip && \
+    pip install -r ./requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 
 nohup uvicorn app:app --host 0.0.0.0 --port 8080 > /dev/null 2>&1 &
 new_pid=$(ps -ef | grep python | grep -v grep | awk '{print $2}' | sed -n '2p')

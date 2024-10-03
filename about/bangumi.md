@@ -26,6 +26,11 @@ permalink: /bangumi
 
 ## 2024
 
+### 十月
+
+> + <a href="javascript:;">孤独摇滚</a>
+> + <a href="javascript:;">义妹生活</a>
+
 ### 七月
 
 > + <a href="javascript:;">夜晚游玩生活</a>

@@ -26,6 +26,10 @@ permalink: /bangumi
 
 ## 2024
 
+### 十一月
+
+> + <a href="javascript:;">药屋少女的呢喃</a>
+
 ### 十月
 
 > + <a href="javascript:;">孤独摇滚</a>

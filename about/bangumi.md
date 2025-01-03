@@ -24,6 +24,13 @@ permalink: /bangumi
 + <a href="https://www.bilibili.com/bangumi/play/ss27042" target="_blank">萤火之森</a>
 + <a href="https://www.yhdmp.cc/showp/22157.html" target="_blank">五等分的新娘剧场版</a>
 
+## 2025
+
+### 一月
+
+> + <a href="javascript:;">恋爱禁止的世界</a>
+
+
 ## 2024
 
 ### 十一月

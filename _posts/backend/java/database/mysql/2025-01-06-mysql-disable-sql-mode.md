@@ -1,0 +1,31 @@
+---
+layout: post
+title:  Mysql 禁用 sql 严格模式
+categories: java
+tag: mysql
+---
+
+
+* content
+{:toc}
+
+
+### sql
+
+
+```sql
+-- 查看全局的 SQL 模式
+SELECT @@GLOBAL.sql_mode;
+
+-- 查看会话的 SQL 模式
+SELECT @@SESSION.sql_mode;
+
+-- ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+
+-- 禁用全局的严格模式
+SET GLOBAL sql_mode = 'STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+
+-- 禁用当前会话的严格模式
+SET SESSION sql_mode = 'STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+```

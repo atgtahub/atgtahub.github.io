@@ -12,7 +12,7 @@ tag: k8s
 
 ### bogeit
 
-> - 技术文档分享：<a href="https://yuque.com/bogeit ">https://yuque.com/bogeit</a>"
+> - 技术文档分享：<a href="https://yuque.com/bogeit ">https://yuque.com/bogeit</a>
 > - 代码资源分享：<a href="https://github.com/bogeit">https://github.com/bogeit</a>
 
 #### 2023年Kubernetes实战攻略

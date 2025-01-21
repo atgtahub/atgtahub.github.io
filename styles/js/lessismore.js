@@ -62,6 +62,9 @@ var fixBrace = function () {
 };
 fixBrace();
 
+/**
+ * 设置所有a标签target属性
+ */
 document.querySelectorAll('a[href^="http"], a[href^="https"]').forEach(element => {
 	element.target = '_blank';
 });

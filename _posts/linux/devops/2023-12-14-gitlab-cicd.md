@@ -308,7 +308,7 @@ yum install psmisc
 
 ```yaml
 # 定义阶段
-stages
+stages:
   - build  # 构建阶段
   - test   # 测试阶段
 

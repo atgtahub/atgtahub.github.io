@@ -5,6 +5,13 @@ header: Posts By Tag
 ---
 
 <style>
+	.warpper-container {
+		font-family: Arial, sans-serif;
+		background-color: #f5f5f5;
+		text-align: center;
+		padding: 20px;
+		margin: 0;
+	}
 	.nihon-container {
 		max-width: 600px;
 		margin: 0 auto;
@@ -74,51 +81,53 @@ header: Posts By Tag
 	}
 </style>
 
-<div class="nihon-container">
-	<!-- 首页 -->
-	<div id="home">
-		<h1>日语假名练习</h1>
-		<button class="mode-btn" onclick="startTest('hiragana')">平假名测验</button>
-		<button class="mode-btn" onclick="startTest('katakana')">片假名测验</button>
-		<button class="mode-btn" onclick="startTest('mixed')">混合测试</button>
-	</div>
-	<!-- 测验页面 -->
-	<div id="test" class="hidden">
-		<h2 id="test-title"></h2>
+<div class="warpper-container">
+	<div class="nihon-container">
+		<!-- 首页 -->
+		<div id="home">
+			<h1>日语假名练习</h1>
+			<button class="mode-btn" onclick="startTest('hiragana')">平假名测验</button>
+			<button class="mode-btn" onclick="startTest('katakana')">片假名测验</button>
+			<button class="mode-btn" onclick="startTest('mixed')">混合测试</button>
+		</div>
+		<!-- 测验页面 -->
+		<div id="test" class="hidden">
+			<h2 id="test-title"></h2>
 
-		<div id="progress"></div>
-		<div id="error">错题数: 0</div>
+			<div id="progress"></div>
+			<div id="error">错题数: 0</div>
 
-		<div id="question"></div>
-		<!-- 原有选项区域，用于非混合模式 -->
-		<div id="options" class="options hidden">
-			<button class="option" onclick="selectOption(this)"></button>
-			<button class="option" onclick="selectOption(this)"></button>
-			<button class="option" onclick="selectOption(this)"></button>
-			<button class="option" onclick="selectOption(this)"></button>
-		</div>
-		<!-- 平假名选项区域，用于混合模式 -->
-		<div id="hiragana-options" class="options hidden">
-			<h3>选择平假名</h3>
-			<div class="option-row">
-				<button class="option" onclick="selectOption(this, 'hiragana')"></button>
-				<button class="option" onclick="selectOption(this, 'hiragana')"></button>
-				<button class="option" onclick="selectOption(this, 'hiragana')"></button>
-				<button class="option" onclick="selectOption(this, 'hiragana')"></button>
+			<div id="question"></div>
+			<!-- 原有选项区域，用于非混合模式 -->
+			<div id="options" class="options hidden">
+				<button class="option" onclick="selectOption(this)"></button>
+				<button class="option" onclick="selectOption(this)"></button>
+				<button class="option" onclick="selectOption(this)"></button>
+				<button class="option" onclick="selectOption(this)"></button>
 			</div>
-		</div>
-		<!-- 片假名选项区域，用于混合模式 -->
-		<div id="katakana-options" class="options hidden">
-			<h3>选择片假名</h3>
-			<div class="option-row">
-				<button class="option" onclick="selectOption(this, 'katakana')"></button>
-				<button class="option" onclick="selectOption(this, 'katakana')"></button>
-				<button class="option" onclick="selectOption(this, 'katakana')"></button>
-				<button class="option" onclick="selectOption(this, 'katakana')"></button>
+			<!-- 平假名选项区域，用于混合模式 -->
+			<div id="hiragana-options" class="options hidden">
+				<h3>选择平假名</h3>
+				<div class="option-row">
+					<button class="option" onclick="selectOption(this, 'hiragana')"></button>
+					<button class="option" onclick="selectOption(this, 'hiragana')"></button>
+					<button class="option" onclick="selectOption(this, 'hiragana')"></button>
+					<button class="option" onclick="selectOption(this, 'hiragana')"></button>
+				</div>
 			</div>
+			<!-- 片假名选项区域，用于混合模式 -->
+			<div id="katakana-options" class="options hidden">
+				<h3>选择片假名</h3>
+				<div class="option-row">
+					<button class="option" onclick="selectOption(this, 'katakana')"></button>
+					<button class="option" onclick="selectOption(this, 'katakana')"></button>
+					<button class="option" onclick="selectOption(this, 'katakana')"></button>
+					<button class="option" onclick="selectOption(this, 'katakana')"></button>
+				</div>
+			</div>
+			<button id="next-btn" onclick="nextQuestion()" disabled>下一题</button>
+			<button id="back-btn" onclick="backToHome()">返回</button>
 		</div>
-		<button id="next-btn" onclick="nextQuestion()" disabled>下一题</button>
-		<button id="back-btn" onclick="backToHome()">返回</button>
 	</div>
 </div>
 

@@ -1,0 +1,421 @@
+---
+layout: default
+title: にほんご
+header: Posts By Tag
+---
+
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>日语假名练习</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f5f5f5;
+			text-align: center;
+			padding: 20px;
+			margin: 0;
+		}
+		.container {
+			max-width: 600px;
+			margin: 0 auto;
+			background: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+		}
+		h1, h2, h3 {
+			color: #333;
+			margin: 10px 0;
+		}
+		button {
+			padding: 10px 20px;
+			margin: 5px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			transition: background-color 0.3s;
+		}
+		.mode-btn, #next-btn, #back-btn {
+			background-color: #007bff;
+			color: white;
+		}
+		.mode-btn:hover, #next-btn:hover, #back-btn:hover {
+			background-color: #0056b3;
+		}
+		#next-btn:disabled {
+			background-color: #ccc;
+			cursor: not-allowed;
+		}
+		.option {
+			background-color: #fff;
+			width: 100px;
+			box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+		}
+		.option.correct {
+			background-color: #58cc02;
+			color: white;
+		}
+		.option.incorrect {
+			background-color: #ff4d4d;
+			color: white;
+		}
+		.hidden {
+			display: none;
+		}
+		.options {
+			margin: 20px 0;
+		}
+		.option-row {
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			margin: 10px 0;
+		}
+		#question {
+			font-size: 24px;
+			margin: 20px 0;
+		}
+		#progress, #error {
+			font-size: 18px;
+			color: #555;
+			margin: 10px 0;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<!-- 首页 -->
+	<div id="home">
+		<h1>日语假名练习</h1>
+		<button class="mode-btn" onclick="startTest('hiragana')">平假名测验</button>
+		<button class="mode-btn" onclick="startTest('katakana')">片假名测验</button>
+		<button class="mode-btn" onclick="startTest('mixed')">混合测试</button>
+	</div>
+	<!-- 测验页面 -->
+	<div id="test" class="hidden">
+		<h2 id="test-title"></h2>
+
+		<div id="progress"></div>
+		<div id="error">错题数: 0</div>
+
+		<div id="question"></div>
+		<!-- 原有选项区域，用于非混合模式 -->
+		<div id="options" class="options hidden">
+			<button class="option" onclick="selectOption(this)"></button>
+			<button class="option" onclick="selectOption(this)"></button>
+			<button class="option" onclick="selectOption(this)"></button>
+			<button class="option" onclick="selectOption(this)"></button>
+		</div>
+		<!-- 平假名选项区域，用于混合模式 -->
+		<div id="hiragana-options" class="options hidden">
+			<h3>选择平假名</h3>
+			<div class="option-row">
+				<button class="option" onclick="selectOption(this, 'hiragana')"></button>
+				<button class="option" onclick="selectOption(this, 'hiragana')"></button>
+				<button class="option" onclick="selectOption(this, 'hiragana')"></button>
+				<button class="option" onclick="selectOption(this, 'hiragana')"></button>
+			</div>
+		</div>
+		<!-- 片假名选项区域，用于混合模式 -->
+		<div id="katakana-options" class="options hidden">
+			<h3>选择片假名</h3>
+			<div class="option-row">
+				<button class="option" onclick="selectOption(this, 'katakana')"></button>
+				<button class="option" onclick="selectOption(this, 'katakana')"></button>
+				<button class="option" onclick="selectOption(this, 'katakana')"></button>
+				<button class="option" onclick="selectOption(this, 'katakana')"></button>
+			</div>
+		</div>
+		<button id="next-btn" onclick="nextQuestion()" disabled>下一题</button>
+		<button id="back-btn" onclick="backToHome()">返回</button>
+	</div>
+</div>
+
+<script>
+	// 日语假名数据（46个基本音节）
+	const sounds = [
+		{ hiragana: "あ", katakana: "ア", syllable: "a" },
+		{ hiragana: "い", katakana: "イ", syllable: "i" },
+		{ hiragana: "う", katakana: "ウ", syllable: "u" },
+		{ hiragana: "え", katakana: "エ", syllable: "e" },
+		{ hiragana: "お", katakana: "オ", syllable: "o" },
+		{ hiragana: "か", katakana: "カ", syllable: "ka" },
+		{ hiragana: "き", katakana: "キ", syllable: "ki" },
+		{ hiragana: "く", katakana: "ク", syllable: "ku" },
+		{ hiragana: "け", katakana: "ケ", syllable: "ke" },
+		{ hiragana: "こ", katakana: "コ", syllable: "ko" },
+		{ hiragana: "さ", katakana: "サ", syllable: "sa" },
+		{ hiragana: "し", katakana: "シ", syllable: "shi" },
+		{ hiragana: "す", katakana: "ス", syllable: "su" },
+		{ hiragana: "せ", katakana: "セ", syllable: "se" },
+		{ hiragana: "そ", katakana: "ソ", syllable: "so" },
+		{ hiragana: "た", katakana: "タ", syllable: "ta" },
+		{ hiragana: "ち", katakana: "チ", syllable: "chi" },
+		{ hiragana: "つ", katakana: "ツ", syllable: "tsu" },
+		{ hiragana: "て", katakana: "テ", syllable: "te" },
+		{ hiragana: "と", katakana: "ト", syllable: "to" },
+		{ hiragana: "な", katakana: "ナ", syllable: "na" },
+		{ hiragana: "に", katakana: "ニ", syllable: "ni" },
+		{ hiragana: "ぬ", katakana: "ヌ", syllable: "nu" },
+		{ hiragana: "ね", katakana: "ネ", syllable: "ne" },
+		{ hiragana: "の", katakana: "ノ", syllable: "no" },
+		{ hiragana: "は", katakana: "ハ", syllable: "ha" },
+		{ hiragana: "ひ", katakana: "ヒ", syllable: "hi" },
+		{ hiragana: "ふ", katakana: "フ", syllable: "fu" },
+		{ hiragana: "へ", katakana: "ヘ", syllable: "he" },
+		{ hiragana: "ほ", katakana: "ホ", syllable: "ho" },
+		{ hiragana: "ま", katakana: "マ", syllable: "ma" },
+		{ hiragana: "み", katakana: "ミ", syllable: "mi" },
+		{ hiragana: "む", katakana: "ム", syllable: "mu" },
+		{ hiragana: "め", katakana: "メ", syllable: "me" },
+		{ hiragana: "も", katakana: "モ", syllable: "mo" },
+		{ hiragana: "や", katakana: "ヤ", syllable: "ya" },
+		{ hiragana: "ゆ", katakana: "ユ", syllable: "yu" },
+		{ hiragana: "よ", katakana: "ヨ", syllable: "yo" },
+		{ hiragana: "ら", katakana: "ラ", syllable: "ra" },
+		{ hiragana: "り", katakana: "リ", syllable: "ri" },
+		{ hiragana: "る", katakana: "ル", syllable: "ru" },
+		{ hiragana: "れ", katakana: "レ", syllable: "re" },
+		{ hiragana: "ろ", katakana: "ロ", syllable: "ro" },
+		{ hiragana: "わ", katakana: "ワ", syllable: "wa" },
+		{ hiragana: "を", katakana: "ヲ", syllable: "wo" },
+		{ hiragana: "ん", katakana: "ン", syllable: "n" }
+	];
+
+	let currentQuestionIndex = 0; // 当前题号
+	let totalQuestions = 0; // 总题数
+	let errorCount = 0; // 错题数
+	let unusedIndexes = new Set(); // 未使用索引
+
+	let currentMode = ''; // 当前测验模式：hiragana, katakana, mixed
+	let currentTestType = -1; // 当前测验类型：0 - 字符到音节, 1 - 音节到字符
+	let currentQuestion = {}; // 当前问题对象
+
+	// 开始测验
+	function startTest(mode) {
+		currentQuestionIndex = 0;
+		totalQuestions = sounds.length;
+		errorCount = 0;
+		unusedIndexes = new Set([...Array(sounds.length).keys()]);
+		currentMode = mode;
+		// 随机选择测验类型（0: 字符到音节, 1: 音节到字符），整个测验保持不变
+		currentTestType = Math.random() < 0.5 ? 0 : 1;
+		document.getElementById('home').classList.add('hidden');
+		document.getElementById('test').classList.remove('hidden');
+		document.getElementById('test-title').textContent = getTestTitle(mode);
+		if (mode === 'mixed') {
+			if (currentTestType === 0) {
+				document.getElementById('hiragana-options').classList.add('hidden');
+				document.getElementById('katakana-options').classList.add('hidden');
+				document.getElementById('options').classList.remove('hidden');
+			} else {
+				document.getElementById('hiragana-options').classList.remove('hidden');
+				document.getElementById('katakana-options').classList.remove('hidden');
+				document.getElementById('options').classList.add('hidden');
+				totalQuestions*=2;
+			}
+		} else {
+			document.getElementById('hiragana-options').classList.add('hidden');
+			document.getElementById('katakana-options').classList.add('hidden');
+			document.getElementById('options').classList.remove('hidden');
+		}
+		document.getElementById('progress').textContent = getProgressTitle(mode);
+		document.getElementById('error').textContent = `错题数: ${errorCount}`;
+		generateQuestion();
+	}
+
+	// 获取测验标题
+	function getTestTitle(mode) {
+		switch (mode) {
+			case 'hiragana': return '平假名测验';
+			case 'katakana': return '片假名测验';
+			case 'mixed': return '混合测试';
+			default: return '';
+		}
+	}
+
+	// 获取进度标题
+	function getProgressTitle(mode) {
+		switch (mode) {
+			case 'hiragana': return `答题进度: ${currentQuestionIndex}/${totalQuestions}`;
+			case 'katakana': return `答题进度: ${currentQuestionIndex}/${totalQuestions}`;
+			case 'mixed': return `答题进度: ${currentQuestionIndex}/${totalQuestions}`;
+			default: return '';
+		}
+	}
+
+	// 生成问题
+	function generateQuestion() {
+		// const index = Math.floor(Math.random() * sounds.length);
+		const randomIndex = Array.from(unusedIndexes)[Math.floor(Math.random() * unusedIndexes.size)];
+		unusedIndexes.delete(randomIndex);
+		const sound = sounds[randomIndex];
+		if (currentMode === 'mixed') {
+			if (currentTestType === 0) {
+				// 字符到音节
+				currentQuestion = {
+					question: sound.hiragana + ' / ' + sound.katakana,
+					answer: sound.syllable,
+					type: 'mixed'
+				};
+				document.getElementById('question').textContent = currentQuestion.question;
+				generateOptions('#options', sound.syllable, 'syllable');
+			} else {
+				// 音节到字符
+				currentQuestion = {
+					question: sound.syllable,
+					hiraganaAnswer: sound.hiragana,
+					katakanaAnswer: sound.katakana,
+					type: 'mixed'
+				};
+				document.getElementById('question').textContent = currentQuestion.question;
+				generateOptions('#hiragana-options', sound.hiragana, 'hiragana');
+				generateOptions('#katakana-options', sound.katakana, 'katakana');
+			}
+		} else {
+			const type = currentTestType; // 使用固定的测验类型
+			if (currentMode === 'hiragana') {
+				currentQuestion = {
+					question: type === 0 ? sound.hiragana : sound.syllable,
+					answer: type === 0 ? sound.syllable : sound.hiragana,
+					type: type
+				};
+			} else if (currentMode === 'katakana') {
+				currentQuestion = {
+					question: type === 0 ? sound.katakana : sound.syllable,
+					answer: type === 0 ? sound.syllable : sound.katakana,
+					type: type
+				};
+			}
+			document.getElementById('question').textContent = currentQuestion.question;
+			generateOptions('#options', currentQuestion.answer, type === 0 ? 'syllable' : currentMode);
+		}
+		document.getElementById('next-btn').disabled = true;
+		resetOptions();
+	}
+
+	// 生成选项
+	function generateOptions(containerId, correctAnswer, optionType) {
+		let options = [correctAnswer];
+		let pool = [];
+		if (optionType === 'syllable') {
+			pool = sounds.map(s => s.syllable);
+		} else if (optionType === 'hiragana') {
+			pool = sounds.map(s => s.hiragana);
+		} else if (optionType === 'katakana') {
+			pool = sounds.map(s => s.katakana);
+		}
+		while (options.length < 4) {
+			const randomOption = pool[Math.floor(Math.random() * pool.length)];
+			if (!options.includes(randomOption)) options.push(randomOption);
+		}
+		options = shuffle(options);
+		const optionButtons = document.querySelectorAll(`${containerId} .option`);
+		optionButtons.forEach((btn, index) => {
+			btn.textContent = options[index];
+			btn.dataset.answer = options[index];
+		});
+	}
+
+	// 处理用户选择
+	function selectOption(btn, section) {
+		const selectedAnswer = btn.dataset.answer;
+		if (currentMode === 'mixed') {
+			if (currentTestType === 0) {
+				// 字符到音节
+				if (selectedAnswer === currentQuestion.answer) {
+					btn.classList.add('correct');
+					document.getElementById('next-btn').disabled = true;
+					setTimeout(() => nextQuestion(), 600)
+				} else {
+					btn.classList.add('incorrect');
+					errorCount++;
+					document.getElementById('next-btn').disabled = false;
+				}
+				document.querySelectorAll('#options .option').forEach(b => {
+					if (b.dataset.answer === currentQuestion.answer) b.classList.add('correct');
+				});
+				document.querySelectorAll('#options .option').forEach(b => b.disabled = true);
+				// document.getElementById('next-btn').disabled = false;
+			} else {
+				// 音节到字符
+				const correctAnswer = section === 'hiragana' ? currentQuestion.hiraganaAnswer : currentQuestion.katakanaAnswer;
+				if (selectedAnswer === correctAnswer) {
+					btn.classList.add('correct');
+				} else {
+					btn.classList.add('incorrect');
+					errorCount++;
+				}
+				document.querySelectorAll(`#${section}-options .option`).forEach(b => {
+					if (b.dataset.answer === correctAnswer) b.classList.add('correct');
+				});
+				document.querySelectorAll(`#${section}-options .option`).forEach(b => b.disabled = true);
+				if (document.querySelectorAll(`.option.incorrect`).length === 0 && document.querySelectorAll(`.option.correct`).length === 2) {
+					document.getElementById('next-btn').disabled = true;
+					setTimeout(() => nextQuestion(), 600)
+				} else if (document.querySelectorAll('#hiragana-options .option:disabled').length === 4 &&
+						document.querySelectorAll('#katakana-options .option:disabled').length === 4) {
+					document.getElementById('next-btn').disabled = false;
+				}
+			}
+		} else {
+			if (selectedAnswer === currentQuestion.answer) {
+				btn.classList.add('correct');
+				document.getElementById('next-btn').disabled = true;
+				setTimeout(() => nextQuestion(), 600)
+			} else {
+				btn.classList.add('incorrect');
+				document.getElementById('next-btn').disabled = false;
+				errorCount++;
+			}
+			document.querySelectorAll('#options .option').forEach(b => {
+				if (b.dataset.answer === currentQuestion.answer) b.classList.add('correct');
+			});
+			document.querySelectorAll('#options .option').forEach(b => b.disabled = true);
+			// document.getElementById('next-btn').disabled = false;
+		}
+		currentQuestionIndex++;
+		document.getElementById('progress').textContent = getProgressTitle(currentMode);
+		document.getElementById('error').textContent = `错题数: ${errorCount}`;
+		if (currentQuestionIndex >= totalQuestions) {
+			document.getElementById('next-btn').disabled = true;
+		}
+	}
+
+	// 下一题
+	function nextQuestion() {
+		generateQuestion();
+	}
+
+	// 返回主页
+	function backToHome() {
+		document.getElementById('test').classList.add('hidden');
+		document.getElementById('home').classList.remove('hidden');
+	}
+
+	// 重置选项按钮状态
+	function resetOptions() {
+		document.querySelectorAll('.option').forEach(btn => {
+			btn.classList.remove('correct', 'incorrect');
+			btn.disabled = false;
+		});
+	}
+
+	// 打乱数组
+	function shuffle(array) {
+		for (let i = array.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[array[i], array[j]] = [array[j], array[i]];
+		}
+		return array;
+	}
+
+	// 初始化显示首页
+	document.getElementById('home').classList.remove('hidden');
+</script>
+</body>
+</html>

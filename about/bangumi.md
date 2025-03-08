@@ -26,6 +26,10 @@ permalink: /bangumi
 
 ## 2025
 
+### 三月
+
+> + <a href="javascript:;">不时用俄语小声说真心话的邻桌艾莉同学</a>
+
 ### 一月
 
 > + <a href="javascript:;">恋爱禁止的世界</a>

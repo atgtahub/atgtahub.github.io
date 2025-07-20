@@ -26,6 +26,10 @@ permalink: /bangumi
 
 ## 2025
 
+### 七月
+
+> + <a href="javascript:;">更衣人偶坠入爱河第二季</a>
+
 ### 四月
 
 > + <a href="javascript:;">履いてください、鷹峰さん</a>

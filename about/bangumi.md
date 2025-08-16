@@ -26,6 +26,10 @@ permalink: /bangumi
 
 ## 2025
 
+### 八月
+
+> + <a href="javascript:;">薰香花朵凛然绽放</a>
+
 ### 七月
 
 > + <a href="javascript:;">更衣人偶坠入爱河第二季</a>

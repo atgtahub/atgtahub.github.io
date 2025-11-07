@@ -1,6 +1,6 @@
 ---
 layout: post
-title: animation
+title: アニメ
 permalink: /bangumi
 ---
 
@@ -10,21 +10,30 @@ permalink: /bangumi
 
 ## 剧场
 
-+ <a href="javascript:;" target="_blank">言语如苏打般涌现</a>
-+ <a href="javascript:;" target="_blank">声之形</a>
-+ <a href="javascript:;" target="_blank">你的名字。</a>
-+ <a href="javascript:;" target="_blank">紫罗兰永恒花园外传：永远与自动手记人偶</a>
-+ <a href="javascript:;" target="_blank">烟花</a>
-+ <a href="javascript:;" target="_blank">天气之子</a>
-+ <a href="javascript:;" target="_blank">朝花夕誓</a>
-+ <a href="javascript:;" target="_blank">我想吃掉你的胰脏</a>
-+ <a href="javascript:;" target="_blank">你好世界</a>
-+ <a href="javascript:;" target="_blank">路人女主的养成方法 Fine</a>
-+ <a href="javascript:;" target="_blank">刀剑神域 进击篇 无星之夜的咏叹调 Fine</a>
-+ <a href="javascript:;" target="_blank">萤火之森</a>
-+ <a href="javascript:;" target="_blank">五等分的新娘剧场版</a>
++ <a href="javascript:;">言语如苏打般涌现</a>
++ <a href="javascript:;">声之形</a>
++ <a href="javascript:;">你的名字。</a>
++ <a href="javascript:;">紫罗兰永恒花园外传：永远与自动手记人偶</a>
++ <a href="javascript:;">烟花</a>
++ <a href="javascript:;">天气之子</a>
++ <a href="javascript:;">朝花夕誓</a>
++ <a href="javascript:;">我想吃掉你的胰脏</a>
++ <a href="javascript:;">你好世界</a>
++ <a href="javascript:;">路人女主的养成方法 Fine</a>
++ <a href="javascript:;">刀剑神域 进击篇 无星之夜的咏叹调 Fine</a>
++ <a href="javascript:;">萤火之森</a>
++ <a href="javascript:;">五等分的新娘剧场版</a>
++ <a href="javascript:;">No Game No Life: Zero</a>
 
 ## 2025
+
+### 十月
+
+> + <a href="javascript:;">俺だけ入れる隠しダンジョン</a>
+> + <a href="javascript:;">回復術士のやり直し ～即死魔法とスキルコピーの超越ヒール～</a>
+> + <a href="javascript:;">犬になったら好きな人に拾われた</a>
+> + <a href="javascript:;">嫌な顔されながらおパンツ見せてもらいたい</a>
+> + <a href="javascript:;">下ネタという概念が存在しない退屈な世界</a>
 
 ### 八月
 
